@@ -1,0 +1,63 @@
+:project-name: <i>Epic 40,000 Remastered</i>
+= {project-name} playbook
+// URIs:
+:uri-project: https://project?
+:uri-antora-docs: https://docs.antora.org/antora/latest
+:uri-docs-install: {uri-antora-docs}/install/install-antora/
+:uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
+:uri-docs-run: {uri-antora-docs}/run-antora/
+:uri-core-team: https://core-team?
+
+== About this repository, Antora and the playbook
+
+This repository contains the {uri-docs-playbook}[Antora playbook] for the {project-name} project.
+
+Antora is the static site generator software that we use to build the project output that you find at {uri-project}.
+The playbook tells Antora where to find the components of the project. 
+
+The components include:
+
+* The _Contributor's Guide_ content.
+* The main {project-name} content.
+* The user interface template.
+* The overrides that we use to customise the template to suit the needs of the project.
+
+== How to build a local preview of the project
+
+=== Clone the repositories
+
+NOTE: These instructions assume that you have adequate knowledge of the Git version control system and related dependencies.
+(I hope to provide more beginner-friendly instructions in future.)
+
+The components of the project reside in various Git repositories.
+You'll find the repositories for these components at the locations listed in link:antora-playbook.yml[]. 
+
+=== Install Antora
+
+To use this playbook and to compile the project on your local machine you'll need to {uri-docs-install}[install Antora].
+
+Antora is the static site generator that we use to generate the {project-name} project website.
+Future updates to Antora may provide a direct way for us to generate other outputs too, such as PDF -- but in the meantime we'll have to resort to more time-consuming methods for such formats.
+
+=== Understand the playbook
+
+This playbook contains the instructions that we want Antora to use to generate the {project-name} website.
+
+* We use the main [.path]_playbook.yml_ file in the automated 'continuous integration' pipeline, to publish the actual website.
+* You can use the [.path]_local-playbook.yml_ file for your 'local' development, so that you can preview the site on your computer with the changes you make.
+
+=== Generate the local development preview site
+
+Once you've installed Antora and saved this playbook to a local directory, you're ready to {uri-docs-run}[run Antora].
+//TODO: Add more detail on how to build this project.
+== Copyright and licence
+
+Copyright (C) 2020 [owner(s)]. [or dedicated to public domain? Or no commecial use?]
+
+Use of this software is granted under the terms of the [Licence].
+See link:LICENCE[] to find the full licence text.
+// TODO: Figure out appropriate copyright and licence statements.
+
+== Authors
+
+Development of {project-name} is led by {uri-core-team}[the core team].
