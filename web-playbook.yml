@@ -3,6 +3,8 @@ site:
   # the 404 page and sitemap files only get generated when the url property is set
   url: https://thehobby.zone/resources/e40k-remastered
   start_page: e40k-remastered::index.adoc
+output:
+  clean: true
 content:
   sources:
   - url: https://github.com/GameBrains/e40kr-contributors-guide.git
