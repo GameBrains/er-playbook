@@ -22,6 +22,6 @@ ui:
     snapshot: true
   output_dir: assets
   # The default '_' directory for assets is problematic when building the Android app.
-  supplemental_files: ../e40kr-supplemental-ui
+  supplemental_files: ./e40kr-supplemental-ui
 runtime:
   cache_dir: ./.cache/antora
