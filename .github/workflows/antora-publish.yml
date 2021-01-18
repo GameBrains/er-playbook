@@ -1,5 +1,9 @@
 name: Publish Antora site
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   build_antora:
@@ -23,5 +27,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: GameBrains
-          author_email: 
-          message: 'New Antora build, triggered by change to a main branch in a source repository.'
+          author_email:
+          message: 'New Antora build, triggered by change to a main branch in either this or a source repository.'
+          branch: github-pages-source
