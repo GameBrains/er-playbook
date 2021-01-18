@@ -2,7 +2,8 @@
     "name": "antora-build",
     "version": "0.1.0",
     "scripts": {
-      "build": "antora github-playbook.yml"
+      "build": "antora github-playbook.yml",
+      "delete-docs": "rm -rf ./docs"
     },
     "dependencies": {
       "@antora/cli": "^2.3.4",
