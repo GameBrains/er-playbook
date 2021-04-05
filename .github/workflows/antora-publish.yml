@@ -1,17 +1,37 @@
 name: Publish Antora site
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
 
 jobs:
   build_antora:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout github-pages-source branch
         uses: actions/checkout@v2
+        with:
+          ref: github-pages-source
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+
+      - name: Delete /docs folder
+        run: npm run delete-docs
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: GameBrains
+          author_email:
+          message: 'Deleting docs directory'
+          branch: github-pages-source
+
+      - name: Checkout master branch
+        uses: actions/checkout@v2
 
       - name: Install dependencies
         run: npm install
@@ -23,5 +43,6 @@ jobs:
         uses: EndBug/add-and-commit@v7
         with:
           author_name: GameBrains
-          author_email: 
-          message: 'New Antora build, triggered by change to a main branch in a source repository.'
+          author_email:
+          message: 'New Antora build, triggered by change to a main branch in either this or a source repository.'
+          branch: github-pages-source
