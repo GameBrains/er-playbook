@@ -1,7 +1,7 @@
 site:
   title: Epic 40,000 Remastered
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
-  url: https://GameBrains.github.io/e40k-remastered
+  url: https://GameBrains.github.io/e40kr-playbook
   start_page: e40k-remastered::index.adoc
 output:
   clean: true
@@ -25,3 +25,5 @@ ui:
     contents: |
       static_files: [ .nojekyll ]
   - path: .nojekyll
+runtime:
+  cache_dir: ./.cache/antora
