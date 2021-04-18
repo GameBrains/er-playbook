@@ -21,3 +21,5 @@ ui:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
   supplemental_files: ./e40kr-supplemental-ui
+runtime:
+  cache_dir: ./.cache/antora
