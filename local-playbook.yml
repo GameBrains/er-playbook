@@ -15,6 +15,9 @@ content:
     edit_url: false
   - url: ../e40k-remastered
     branches: HEAD
+    start_path:
+  - url: ../e40kr-experimental
+    branches: HEAD
     start_path: 
 ui:
   bundle:

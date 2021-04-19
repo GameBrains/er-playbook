@@ -17,10 +17,11 @@ The playbook tells Antora where to find the components of the project.
 
 The components include:
 
-* The _Contributor's Guide_ content.
 * The main {project-name} content.
-* The user interface template.
-* The overrides that we use to customise the template to suit the needs of the project.
+* The _Contributor's Guide_ content.
+* The _Experimental_ content.
+* The user interface (UI) template.
+* The overrides (supplemental UI) that we use to customise the UI template to suit the needs of the project.
 
 == How to build a local preview of the project
 
