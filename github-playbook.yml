@@ -17,7 +17,7 @@ content:
       branches: master
       edit_url: true
     - url: https://github.com/GameBrains/e40kr-experimental.git
-      branches: master
+      branches: main
       edit_url: true
 ui:
   bundle:
