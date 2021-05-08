@@ -46,6 +46,12 @@ td.hdlist2 {
 
 div.title {
     font-style: italic;
+    font-weight: 500;
+    color: #5d5d5d;
+}
+
+div.sidebarblock {
+    background-color: #e4e4f2 !important;
 }
 
 span.green {
@@ -58,6 +64,20 @@ span.red {
 
 .footnote {
     font-size: 0.85em;
+}
+
+h2 {
+    background-color: whitesmoke;
+    border-bottom: none !important;
+}
+
+h3 {
+    border-bottom: 1px solid #e1e1e1;
+}
+
+h4 {
+    font-size: 1.1em;
+    font-weight: 500 !important;
 }
 
 ul.none {

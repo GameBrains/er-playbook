@@ -1,7 +1,7 @@
 site:
   title: Epic 40k Remastered
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
-  url: https://127.0.0.1
+  url: 
   # url: https://thehobby.zone/resources/e40k-remastered
   start_page: e40k-remastered::index.adoc
 output:
