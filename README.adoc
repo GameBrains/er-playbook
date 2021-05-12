@@ -1,12 +1,12 @@
-:project-name: <i>Epic 40k Remastered</i>
+:project-name: <i>Epic Remastered</i>
 = {project-name} playbook
 // URIs:
-:uri-project: https://project?
+:uri-project: https://epicremastered.com
 :uri-antora-docs: https://docs.antora.org/antora/latest
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
 :uri-docs-run: {uri-antora-docs}/run-antora/
-:uri-core-team: https://core-team?
+:uri-core-team: 
 
 == About this repository, Antora and the playbook
 
@@ -17,7 +17,7 @@ The playbook tells Antora where to find the components of the project.
 
 The components include:
 
-* The main {project-name} content.
+* The _Core_ content -- the main body of the {project-name} project.
 * The _Contributor's Guide_ content.
 * The _Experimental_ content.
 * The user interface (UI) template.
@@ -28,7 +28,7 @@ The components include:
 === Clone the repositories
 
 NOTE: These instructions assume that you have adequate knowledge of the Git version control system and related dependencies.
-(I hope to provide more beginner-friendly instructions in future.)
+(We hope to provide more beginner-friendly instructions in future.)
 
 The components of the project reside in various Git repositories.
 You'll find the repositories for these components at the locations listed in link:antora-playbook.yml[]. 
@@ -58,7 +58,7 @@ Development of {project-name} is led by {uri-core-team}[the core team].
 
 == Copyright and licence
 
-Copyright 2020 Eric Weston and the Epic 40k Remastered project contributors.
+Copyright 2020 Eric Weston and the Epic Remastered project contributors.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
