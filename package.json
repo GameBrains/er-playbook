@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "antora github-playbook.yml",
+    "add-cname": "touch ./docs/CNAME && echo 'epicremastered.com' >> ./docs/CNAME",
     "delete-docs": "rm -rf ./docs",
     "nojekyll": "touch ./docs/.nojekyll"
   },
