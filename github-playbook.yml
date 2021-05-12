@@ -8,15 +8,15 @@ output:
   dir: ./docs
 content:
   sources:
-    - url: https://github.com/GameBrains/e40kr-contributors-guide.git
+    - url: https://github.com/GameBrains/er-contributors-guide.git
       branches: master
       # Set `edit_url` to `false` to disable the 'Edit this Page' link for pages that originate from this repository.
       # You can achieve the same thing if you add empty credentials (simply `@`) in front of the domain in the URL.
       edit_url: true
-    - url: https://github.com/GameBrains/e40k-remastered.git
+    - url: https://github.com/GameBrains/er-core.git
       branches: master
       edit_url: true
-    - url: https://github.com/GameBrains/e40kr-experimental.git
+    - url: https://github.com/GameBrains/er-experimental.git
       branches: main
       edit_url: true
 ui:

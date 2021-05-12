@@ -8,15 +8,15 @@ output:
   clean: true
 content:
   sources:
-  - url: ../e40kr-contributors-guide
+  - url: ../er-contributors-guide
     branches: HEAD
     # Set `edit_url` to `false` to disable the 'Edit this Page' link for any page [all pages?] that originates from this repository.
     # You can achieve the same thing if you add empty credentials (simply `@`) in front of the domain in the URL.
     edit_url: false
-  - url: ../e40k-remastered
+  - url: ../er-core
     branches: HEAD
     start_path:
-  - url: ../e40kr-experimental
+  - url: ../er-experimental
     branches: HEAD
     start_path: 
 ui:
