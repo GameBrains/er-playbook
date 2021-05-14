@@ -6,7 +6,7 @@
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
 :uri-docs-run: {uri-antora-docs}/run-antora/
-:uri-core-team: 
+:uri-project-team: 
 
 == About this repository, Antora and the playbook
 
@@ -54,7 +54,7 @@ Once you've installed Antora and saved this playbook to a local directory, you'r
 
 == Project team
 
-Development of {project-name} is led by {uri-core-team}[the core team].
+Development of {project-name} is led by {uri-project-team}[the project team].
 
 == Copyright and licence
 
