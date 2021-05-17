@@ -2,11 +2,11 @@
 = {project-name} playbook
 // URIs:
 :uri-project: https://epicremastered.com
+:uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
 :uri-antora-docs: https://docs.antora.org/antora/latest
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
 :uri-docs-run: {uri-antora-docs}/run-antora/
-:uri-project-team: 
 
 == About this repository, Antora and the playbook
 
@@ -54,7 +54,7 @@ Once you've installed Antora and saved this playbook to a local directory, you'r
 
 == Project team
 
-Development of {project-name} is led by {uri-project-team}[the project team].
+Development of {project-name} is led by {uri-project-team}[the project team^] (external URL).
 
 == Copyright and licence
 
