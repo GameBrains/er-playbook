@@ -34,6 +34,14 @@ asciidoc:
     page-pagination: true
     icons: font
 
+    # Orders and conditions with graphics, for inline usage
+    assault-orders: image:core:main-rules:Orders_Assault.png[width=16,height=16] Assault orders
+    march-orders: image:core:main-rules:Orders_March.png[width=16,height=16] March orders
+    overwatch-orders: image:core:main-rules:Orders_Overwatch.png[width=16,height=16] Overwatch orders
+    special-orders: image:core:main-rules:Orders_Special.png[width=16,height=16] Special orders   
+    broken-condition: image:core:main-rules:Conditions_Broken.png[width=16,height=16] Broken condition
+    immobilised-condition: image:core:main-rules:Conditions_Immobilised.png[width=16,height=16] Immobilised condition
+
     # Ability/weapon/variant keywords
     anti-personnel: <i>Anti-Personnel</i>
     anti-tank: <i>Anti-Tank</i>
