@@ -45,14 +45,17 @@ asciidoc:
     # Ability/weapon/variant keywords
     anti-personnel: <i>Anti-Personnel</i>
     anti-tank: <i>Anti-Tank</i>
+    armour-1: <i>Armour +1</i>
     artillery: <i>Artillery</i>
     assault: <i>Assault</i>
+    assault-1: <i>Assault +1</i>
     barrage: <i>Barrage</i>
     bridge: <i>Bridge</i>
     brood-telepathy: <i>Brood Telepathy</i>
     cavalry: <i>Cavalry</i>
     close-combat-weapons: <i>Close Combat Weapons</i>
     close-support: <i>Close Support</i>
+    dauntless: <i>Dauntless</i>
     death-ray: <i>Death Ray</i>
     deathstrike-missile: <i>Deathstrike Missile</i>
     deathwing: <i>Deathwing</i>
@@ -62,6 +65,7 @@ asciidoc:
     fast: <i>Fast</i>
     flak: <i>Flak</i>
     flak-battery: <i>Flak Battery</i>
+    firepower-1: <i>Firepower +1</i>
     heavy-barrage: <i>Heavy Barrage</i>
     heavy-weapons: <i>Heavy Weapons</i>
     hero: <i>Hero</i>
@@ -73,14 +77,17 @@ asciidoc:
     macro-weapon: <i>Macro-Weapon</i>
     medic: <i>Medic</i>
     mega-cannon: <i>Mega-Cannon</i>
+    no-retreat: <i>No Retreat</i>
     open-top: <i>Open Top</i>
     ordo-malleus: <i>Ordo Malleus</i>
+    ork-initiative: <i>Ork Initiative</i>
     pulsar: <i>Pulsar</i>
     psyker: <i>Psyker</i>
     rampage: <i>Rampage</i>
     rapid-fire: <i>Rapid Fire</i>
     ravenwing: <i>Ravenwing</i>
     recovery: <i>Recovery</i>
+    regroup: <i>Regroup</i>
     ripper-tentacles: <i>Ripper Tentacles</i>
     save: <i>Save</i>
     self-propelled-artillery: <Self-propelled Artillery</i>
@@ -97,4 +104,5 @@ asciidoc:
     transport-2: <i>Transport (2)</i>
     transport-x: <i>Transport (X)</i>
     tunneller: <i>Tunneller</i>
+    unbreakable: <i>Unbreakable</i>
     vortex-missile: <i>Vortex Missile</i>
