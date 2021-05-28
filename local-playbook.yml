@@ -45,8 +45,8 @@ asciidoc:
     immobilised-condition: image:core:main-rules:Conditions_Immobilised.png[width=16,height=16] Immobilised condition
 
     # Ability/weapon/variant keywords
-    anti-personnel: <i>Anti-Personnel</i>
-    anti-tank: <i>Anti-Tank</i>
+    anti-personnel: <i>Anti-personnel</i>
+    anti-tank: <i>Anti-tank</i>
     armour-1: <i>Armour +1</i>
     artillery: <i>Artillery</i>
     assault: <i>Assault</i>
@@ -72,13 +72,15 @@ asciidoc:
     heavy-weapons: <i>Heavy Weapons</i>
     hero: <i>Hero</i>
     hit-and-run: <i>Hit and Run</i>
+    holo-fields: <i>Holo-fields</i>
+    ignore-terrain: <i>Ignore Terrain</i>
     infiltrators: <i>Infiltrators</i>
     jump-packs: <i>Jump Packs</i>
     kroot: <i>Kroot</i>
     long-range: <i>Long Range</i>
-    macro-weapon: <i>Macro-Weapon</i>
+    macro-weapon: <i>Macro-weapon</i>
     medic: <i>Medic</i>
-    mega-cannon: <i>Mega-Cannon</i>
+    mega-cannon: <i>Mega-cannon</i>
     no-retreat: <i>No Retreat</i>
     open-top: <i>Open Top</i>
     ordo-malleus: <i>Ordo Malleus</i>
