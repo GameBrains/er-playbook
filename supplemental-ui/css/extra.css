@@ -31,6 +31,18 @@ i.fa.icon-caution::before {
     background: no-repeat url("../img/caution.svg");
 }
 
+.admonitionblock.e40k td.icon .icon-note:before {
+    background: no-repeat url("../img/note.svg");
+}
+
+.admonitionblock.e40k td.icon .icon-note:after {
+    content: "Difference from Epic 40,000" !important;
+}
+
+.doc .admonitionblock.e40k .icon {
+    background-color: #fcc141;
+}
+
 .navbar {
     background-color: #534FF5;
 }

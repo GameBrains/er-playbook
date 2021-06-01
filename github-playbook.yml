@@ -43,6 +43,7 @@ asciidoc:
     immobilised-condition: image:core:main-rules:Conditions_Immobilised.png[width=16,height=16] Immobilised condition
 
     # Ability/weapon/variant keywords
+    a-dying-race: <i>A Dying Race</i>
     anti-personnel: <i>Anti-personnel</i>
     anti-tank: <i>Anti-tank</i>
     armour-1: <i>Armour +1</i>
@@ -61,6 +62,7 @@ asciidoc:
     deathwing: <i>Deathwing</i>
     disrupt: <i>Disrupt</i>
     distortion-cannon: <i>Distortion Cannon</i>
+    dodge: <i>Dodge</i>
     engineers: <i>Engineers</i>
     fast: <i>Fast</i>
     flak: <i>Flak</i>
@@ -83,6 +85,7 @@ asciidoc:
     open-top: <i>Open Top</i>
     ordo-malleus: <i>Ordo Malleus</i>
     ork-initiative: <i>Ork Initiative</i>
+    psychic-beacon: <i>Psychic Beacon</i>
     pulsar: <i>Pulsar</i>
     psyker: <i>Psyker</i>
     rampage: <i>Rampage</i>
@@ -100,6 +103,8 @@ asciidoc:
     stubborn: <i>Stubborn</i>
     super-lifta-droppa: <i>Super Lifta-droppa</i>
     supreme-commander: <i>Supreme Commander</i>
+    synapse: <i>Synapse</i>
+    synapse-creature: <i>Synapse Creature</>
     tank-destroyer: <i>Tank Destroyer</i>
     transport: <i>Transport</i>
     transport-1: <i>Transport (1)</i>
