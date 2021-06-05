@@ -19,7 +19,6 @@ The components include:
 
 * The _Core_ content -- the main body of the {project-name} project.
 * The _Contributor's Guide_ content.
-* The _Experimental_ content.
 * The user interface (UI) template.
 * The overrides (supplemental UI) that we use to customise the UI template to suit the needs of the project.
 
@@ -44,13 +43,12 @@ Future updates to Antora may provide a direct way for us to generate other outpu
 
 This playbook contains the instructions that we want Antora to use to generate the {project-name} website.
 
-* We use the main [.path]_playbook.yml_ file in the automated 'continuous integration' pipeline, to publish the actual website.
+* We use the main [.path]_github-playbook.yml_ file in the automated 'continuous integration' pipeline, to publish the actual website.
 * You can use the [.path]_local-playbook.yml_ file for your 'local' development, so that you can preview the site on your computer with the changes you make.
 
 === Generate the local development preview site
 
 Once you've installed Antora and saved this playbook to a local directory, you're ready to {uri-docs-run}[run Antora].
-//TODO: Add more detail on how to build this project.
 
 == Project team
 

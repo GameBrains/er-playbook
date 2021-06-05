@@ -16,9 +16,9 @@ content:
     - url: https://github.com/GameBrains/er-core.git
       branches: master
       edit_url: true
-    - url: https://github.com/GameBrains/er-experimental.git
-      branches: main
-      edit_url: true
+    #- url: https://github.com/GameBrains/er-experimental.git
+    #  branches: main
+    #  edit_url: true
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
