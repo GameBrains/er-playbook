@@ -83,6 +83,7 @@ asciidoc:
     ignore-terrain: <i>Ignore Terrain</i>
     infiltrators: <i>Infiltrators</i>
     jump-packs: <i>Jump Packs</i>
+    jungle-fighters: <i>Jungle Fighters</i>
     kroot: <i>Kroot</i>
     long-range: <i>Long Range</i>
     macro-weapon: <i>Macro-weapon</i>
