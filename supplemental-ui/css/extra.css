@@ -39,8 +39,16 @@ i.fa.icon-caution::before {
     content: "Difference from Epic 40,000" !important;
 }
 
+.admonitionblock.option td.icon .icon-note:after {
+    content: "Option" !important;
+}
+
 .doc .admonitionblock.e40k .icon {
     background-color: #fcc141;
+}
+
+.doc .admonitionblock.option .icon {
+    background-color: #b96cac;
 }
 
 .navbar {
