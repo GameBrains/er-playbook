@@ -35,6 +35,7 @@ asciidoc:
     project-name: <i>Epic Remastered</i>
     uri-project: https://epicremastered.com
     uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
+    uri-builder: https://builder.epicremastered.com
     page-pagination: true
     icons: font
 
