@@ -2,7 +2,6 @@ site:
   title: Epic Remastered
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
   url: 
-  # url: 
   start_page: core::index.adoc
 output:
   clean: true
@@ -16,9 +15,12 @@ content:
   - url: ../er-core
     branches: HEAD
     start_path:
-  #- url: ../er-experimental
-  #  branches: HEAD
-  #  start_path: 
+  - url: ../er-battles
+    branches: HEAD
+    start_path:
+  - url: ../er-armies
+    branches: HEAD
+    start_path: 
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable

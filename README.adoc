@@ -1,5 +1,5 @@
 :project-name: <i>Epic Remastered</i>
-= {project-name} playbook
+= {project-name} -- Playbook
 // URIs:
 :uri-project: https://epicremastered.com
 :uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
@@ -17,10 +17,15 @@ The playbook tells Antora where to find the components of the project.
 
 The components include:
 
-* The _Core_ content -- the main body of the {project-name} project.
-* The _Contributor's Guide_ content.
+* *_Core_* -- The main body of rules content.
+* *_Battles_* -- Rules for setup of the playing area, scenarios and campaigns.
+* *_Armies_* -- Army lists for each faction in the game.
+* *_Contributor's Guide_* -- Guidance for project contributors.
+
+This playbook contains additional project elements, such as:
+
 * The user interface (UI) template.
-* The overrides (supplemental UI) that we use to customise the UI template to suit the needs of the project.
+* The overrides that we use to customise the UI template to suit the needs of the project (the supplemental UI).
 
 == How to build a local preview of the project
 
