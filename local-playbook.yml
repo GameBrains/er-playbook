@@ -54,18 +54,26 @@ asciidoc:
     artillery: <i>Artillery</i>
     assault: <i>Assault</i>
     assault-1: <i>Assault +1</i>
+    biosave: <i>Biosave</i>
     bridge: <i>Bridge</i>
     brood-telepathy: <i>Brood Telepathy</i>
     cavalry: <i>Cavalry</i>
+    cc-blast: <i>CC Blast</i>
     close-support: <i>Close Support</i>
+    daemonbane: <i>Daemonbane</i>
     dauntless: <i>Dauntless</i>
     deathwing: <i>Deathwing</i>
+    deep-strike: <i>Deep Strike</i>
+    destiny-not-fate: <i>Destiny, Not Fate</i>
     dodge: <i>Dodge</i>
     engineers: <i>Engineers</i>
     fast: <i>Fast</i>
+    ff-blast: <i>FF Blast</i>
     flak: <i>Flak</i>
     flak-battery: <i>Flak Battery</i>
     firepower-1: <i>Firepower +1</i>
+    frenzy: <i>Frenzy</i>
+    guided: <i>Guided</i>
     heavy-weapons: <i>Heavy Weapons</i>
     hero: <i>Hero</i>
     hit-and-run: <i>Hit and Run</i>
@@ -82,12 +90,18 @@ asciidoc:
     kroot: <i>Kroot</i>
     long-range: <i>Long Range</i>
     macro-weapon: <i>Macro-weapon</i>
+    manoeuvrable: <i>Manoeuvrable</i>
+    markerlights: <i>Markerlights</i>
     medic: <i>Medic</i>
+    medium-range: <i>Medium Range</i>
     no-retreat: <i>No Retreat</i>
     open-top: <i>Open Top</i>
     ordo-malleus: <i>Ordo Malleus</i>
     ork-initiative: <i>Ork Initiative</i>
+    portal: <i>Portal</i>
     psychic-beacon: <i>Psychic Beacon</i>
+    psychic-focus: <i>Psychic Focus</i>
+    psychic-null: <i>Psychic Null</i>
     psyker: <i>Psyker</i>
     rampage: <i>Rampage</i>
     rapid-fire: <i>Rapid Fire</i>
@@ -98,13 +112,16 @@ asciidoc:
     save: <i>Save</i>
     self-propelled-artillery: <Self-propelled Artillery</i>
     shootier: <i>Shootier</i>
+    short-range: <i>Short Range</i>
     skimmer: <i>Skimmer</i>
     space-wolves: <i>Space Wolves</i>
     stubborn: <i>Stubborn</i>
     summon: <i>Summon</i>
+    support: <i>Support</i>
     supreme-commander: <i>Supreme Commander</i>
     synapse: <i>Synapse</i>
     synapse-creature: <i>Synapse Creature</i>
+    target-lock: <i>Target Lock</i>
     transport: <i>Transport</i>
     transport-1: <i>Transport (1)</i>
     transport-2: <i>Transport (2)</i>
