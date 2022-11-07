@@ -132,6 +132,7 @@ asciidoc:
 
     # 'Has {super-heavy weapon}' ability keywords
     has-super-heavy-weapon: <i>Has {super-heavy weapon}</i>
+    has-anti-personnel: <i>Has Anti-Personnel</i>
     has-barrage: <i>Has Barrage</i>
     has-death-ray: <i>Has Death Ray</i>
     has-disrupt: <i>Has Disrupt</i>
