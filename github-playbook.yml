@@ -37,7 +37,9 @@ asciidoc:
     uri-builder: https://builder.epicremastered.com
     page-pagination: true
     icons: font
-
+    e40k: <i>Epic 40,000</i>
+    e40k-diff: Difference from <i>Epic 40,000</i>&colon;&#160;
+    
     # Orders and conditions with graphics, for inline usage
     assault-orders: image:core:main-rules:Orders_Assault.png[width=16,height=16] Assault orders
     march-orders: image:core:main-rules:Orders_March.png[width=16,height=16] March orders

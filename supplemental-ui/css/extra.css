@@ -103,3 +103,7 @@ h4 {
 ul.none {
     list-style: none;
 }
+
+.lead {
+    font-size: larger;
+}
