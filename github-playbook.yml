@@ -151,6 +151,10 @@ asciidoc:
     heavy-barrage: <i>Heavy Barrage</i>
     mega-cannon: <i>Mega-cannon</i>
     pulsar: <i>Pulsar</i>
+    pulsar-x: <i>Pulsar (X)</i>
+    pulsar-d3: <i>Pulsar (D3)</i>
+    pulsar-d3plus1: <i>Pulsar (D3+1)</i>
+    pulsar-d6: <i>Pulsar (D6)</i>
     ripper-tentacles: <i>Ripper Tentacles</i>
     siege: <i>Siege</i>
     super-lifta-droppa: <i>Super Lifta-droppa</i>
