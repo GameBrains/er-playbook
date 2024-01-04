@@ -25,7 +25,7 @@ jobs:
         run: npm run delete-docs
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: GameBrains
           author_email:
@@ -48,7 +48,7 @@ jobs:
         run: npm run add-cname
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v7
+        uses: EndBug/add-and-commit@v9
         with:
           author_name: GameBrains
           author_email:
