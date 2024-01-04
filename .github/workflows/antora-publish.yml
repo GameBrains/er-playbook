@@ -17,9 +17,9 @@ jobs:
           ref: github-pages-source
 
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v4
         with:
-          node-version: 12.x
+          node-version: 20.x
 
       - name: Delete /docs folder
         run: npm run delete-docs
