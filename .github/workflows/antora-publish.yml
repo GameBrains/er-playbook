@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout github-pages-source branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           ref: github-pages-source
 
@@ -33,7 +33,7 @@ jobs:
           branch: github-pages-source
 
       - name: Checkout master branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: npm install
