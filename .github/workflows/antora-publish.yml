@@ -30,7 +30,7 @@ jobs:
           author_name: GameBrains
           author_email:
           message: 'Deleting docs directory'
-          branch: github-pages-source
+          new_branch: github-pages-source
 
       - name: Checkout master branch
         uses: actions/checkout@v4
@@ -53,4 +53,4 @@ jobs:
           author_name: GameBrains
           author_email:
           message: 'New Antora build, triggered by change to a main branch in either this or a source repository.'
-          branch: github-pages-source
+          new_branch: github-pages-source
