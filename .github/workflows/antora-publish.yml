@@ -53,4 +53,5 @@ jobs:
           author_name: GameBrains
           author_email:
           message: 'New Antora build, triggered by change to a main branch in either this or a source repository.'
+          new_branch: github-pages-source
           push: origin github-pages-source --set-upstream --force
