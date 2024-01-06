@@ -1,14 +1,15 @@
 {
     "name": "antora-build",
-  "version": "0.1.0",
-  "scripts": {
-    "build": "antora github-playbook.yml",
-    "add-cname": "touch ./docs/CNAME && echo 'epicremastered.com' >> ./docs/CNAME",
-    "delete-docs": "rm -rf ./docs",
-    "nojekyll": "touch ./docs/.nojekyll"
-  },
-  "dependencies": {
-    "@antora/cli": "3.1.7",
-    "@antora/site-generator": "3.1.7"
-  }
+    "version": "0.1.0",
+    "scripts": {
+        "build": "antora github-playbook.yml",
+        "add-cname": "touch ./docs/CNAME && echo 'epicremastered.com' >> ./docs/CNAME",
+        "delete-docs": "rm -rf ./docs",
+        "nojekyll": "touch ./docs/.nojekyll"
+    },
+    "dependencies": {
+        "@antora/cli": "3.1.7",
+        "@antora/lunr-extension": "^1.0.0-alpha.8",
+        "@antora/site-generator": "3.1.7"
+    }
 }

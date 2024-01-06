@@ -1,10 +1,16 @@
+antora:
+  extensions:
+  - require: '@antora/lunr-extension'
+
 site:
   title: Epic Remastered
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
   url: 
   start_page: core::index.adoc
+
 output:
   clean: true
+
 content:
   sources:
   - url: ../er-contributors-guide
@@ -21,6 +27,7 @@ content:
   - url: ../er-armies
     branches: HEAD
     start_path: 
+
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
@@ -28,8 +35,10 @@ ui:
   output_dir: assets
   # The default '_' directory for assets is problematic when building the Android app.
   supplemental_files: ./supplemental-ui
+
 runtime:
   cache_dir: ./.cache/antora
+
 asciidoc: 
   attributes:
     project-name: <i>Epic Remastered</i>
