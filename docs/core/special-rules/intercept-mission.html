@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Intercept mission :: Epic Remastered</title>
+    <link rel="canonical" href="https://epicremastered.com/core/special-rules/intercept-mission.html">
+    <link rel="prev" href="ground-attack-mission.html">
+    <link rel="next" href="flyers-and-flak.html">
+    <meta name="generator" content="Antora 3.1.7">
+    <link rel="stylesheet" href="../../_/css/site.css">
+<link rel="stylesheet" href="../../_/css/extra.css">  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://epicremastered.com">Epic Remastered</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://epicremastered.com/index.html">Core</a>
+        <a class="navbar-item" href="https://epicremastered.com/battles/index.html">Battles</a>
+        <a class="navbar-item" href="https://epicremastered.com/armies/index.html">Armies</a>
+<!--    <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Products</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Product A</a>
+            <a class="navbar-item" href="#">Product B</a>
+            <a class="navbar-item" href="#">Product C</a>
+          </div>
+        </div> -->
+        <div class="navbar-item has-dropdown is-hoverable">
+          <span class="navbar-link">Resources</span>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://builder.epicremastered.com/" target="_blank">Detachment builder</a>
+            <a class="navbar-item" href="https://thehobby.zone/resources/e40k-compendium" target="_blank">Epic 40,000 Compendium</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="#">Download</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="core" data-version="">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <button class="nav-menu-toggle" aria-label="Toggle expand/collapse all" style="display: none"></button>
+    <h3 class="title"><a href="../index.html">Core</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../index.html">Welcome</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../about-this-publication.html">About this publication</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../formats-of-this-publication.html">Formats of this publication</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../how-to-use-this-publication.html">How to use this publication</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../what-you-will-need-to-play.html">What you will need, to play</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/main-rules.html">Main rules</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/basics.html">Basics</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/use-of-dice.html">Use of dice</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/units-and-unit-types.html">Units and unit types</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/data-sheets-and-characteristics.html">Data sheets and characteristics</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/detachments.html">Detachments</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/common-rules.html">Common rules</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/strategy-rating.html">Strategy Rating</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/hq-units-and-command.html">HQ units and command</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/orders-and-conditions.html">Orders and conditions</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/broken-detachments.html">Broken detachments</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/moves.html">Moves</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/blast-markers.html">Blast markers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/leadership-test.html">Leadership test</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/barrage-templates.html">Barrage templates</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../main-rules/the-turn-sequence.html">The turn sequence</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../main-rules/the-initiative.html">The Initiative</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../main-rules/the-start-phase.html">The Start phase</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/the-movement-phase.html">The Movement phase</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/terrain-effects-on-movement.html">Terrain effects on movement</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/transportation.html">Transportation</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/snap-fire.html">Snap Fire</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/the-shooting-phase.html">The Shooting phase</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/add-up-shooting-firepower.html">S1. Add up shooting Firepower</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/work-out-blast-markers.html">S2. Work out Blast markers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/work-out-how-many-hit-dice-to-roll.html">S3. Work out how many hit dice to roll</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/find-out-the-targets-lowest-armour-value.html">S4. Find out the target&#8217;s lowest armour value</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/roll-for-shooting-hits-and-discard-misses.html">S5. Roll for shooting hits and discard misses</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/allocate-hits.html">S6. Allocate hits</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/remove-casualties.html">S7. Remove Casualties</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/terrain-effects-on-shooting.html">Terrain effects on shooting</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/the-assault-phase.html">The Assault phase</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/assault-moves-and-charges.html">Assault moves and charges</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/assault-move-examples.html">Assault move examples</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/close-combat-procedure.html">Close combat procedure</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/add-up-assault-values.html">CC1. Add up Assault values</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/work-out-close-combat-bonuses.html">CC2. Work out close combat bonuses</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/roll-to-resolve-the-close-combat.html">CC3. Roll to resolve the close combat</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/determine-the-close-combat-result-and-place-blast-markers.html">CC4. Determine the close combat result and place Blast markers</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/roll-for-close-combat-hits.html">CC5. Roll for close combat hits</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/broken-detachments-and-retreats.html">CC6. Broken detachments and retreats</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/multiple-close-combats.html">Multiple close combats</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/firefight-procedure.html">Firefight procedure</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/calculate-your-firepower-total.html">FF1. Calculate your Firepower total</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/work-out-firefight-bonuses.html">FF2. Work out firefight bonuses</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/roll-to-resolve-the-firefight.html">FF3. Roll to resolve the firefight</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/allocate-hits-and-blast-markers-to-losing-detachments.html">FF4. Allocate hits and Blast markers to losing detachments</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="../main-rules/multiple-firefights.html">Multiple firefights</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../main-rules/the-rally-phase.html">The Rally phase</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/roll-to-remove-blast-markers.html">R1. Roll to remove Blast markers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/attempt-to-rally-broken-detachments.html">R2. Attempt to rally Broken detachments</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/attempt-repairs.html">R3. Attempt repairs</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../main-rules/check-the-game-end-conditions.html">R4. Check the game end conditions</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="special-rules.html">Special rules</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="super-heavy-weapons.html">Super-heavy weapons</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="anti-tank.html">Anti-Tank</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="barrage.html">Barrage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="close-combat-weapons.html">Close Combat Weapons</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="death-ray.html">Death Ray</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="deathstrike-missile.html">Deathstrike Missile</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="disrupt.html">Disrupt</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="distortion-cannon.html">Distortion Cannon</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="heavy-barrage.html">Heavy Barrage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="macro-weapon.html">Macro-weapon</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="mega-cannon.html">Mega Cannon</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="pulsar-x.html">Pulsar (X)</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="ripper-tentacles.html">Ripper Tentacles</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="super-lifta-droppa.html">Super Lifta-Droppa</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="vortex-missile.html">Vortex Missile</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="special-abilities.html">Special abilities</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="types-of-special-ability.html">Types of special ability</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="a-dying-race.html">A Dying Race</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="armour-1.html">Armour +1</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="artillery.html">Artillery</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="assault-1.html">Assault +1</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="assault.html">Assault</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="brood-telepathy.html">Brood Telepathy</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="cavalry.html">Cavalry</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="close-support.html">Close Support</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="dauntless.html">Dauntless</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="deep-strike.html">Deep Strike</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="dodge.html">Dodge</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="firepower-1.html">Firepower +1</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="flak.html">Flak</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="has-super-heavy-weapon.html">Has {super-heavy weapon}</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="heavy-weapons.html">Heavy Weapons</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="hero.html">Hero</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="hit-and-run.html">Hit and Run</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="hitch-x.html">Hitch (X)</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="holo-fields.html">Holo-fields</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="ignore-terrain.html">Ignore Terrain</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="infiltrators.html">Infiltrators</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="jump-packs.html">Jump Packs</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="jungle-fighters.html">Jungle Fighters</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="long-range.html">Long Range</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="no-retreat.html">No Retreat</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="ork-initiative.html">Ork Initiative</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="psychic-beacon.html">Psychic Beacon</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="psychic-null.html">Psychic Null</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="psyker.html">Psyker</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="rampage.html">Rampage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="rapid-fire.html">Rapid Fire</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="regroup.html">Regroup</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="save.html">Save</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="short-range.html">Short Range</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="skimmer.html">Skimmer</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="stubborn.html">Stubborn</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="summon.html">Summon</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="support.html">Support</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="supreme-commander.html">Supreme Commander</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="synapse-creature.html">Synapse Creature</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="synapse.html">Synapse</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="transport-x.html">Transport (X)</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tunneller.html">Tunneller</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="tyranid-objectives.html">Tyranid Objectives</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="unbreakable.html">Unbreakable</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="walker.html">Walker</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="war-engines.html">War engines</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engine-movement.html">War engine movement</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engines-and-blast-markers.html">War engines and Blast markers</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="shooting-with-war-engines.html">Shooting with war engines</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="weapon-mount-examples.html">Weapon mount examples</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="shooting-at-war-engines.html">Shooting at war engines</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engine-critical-damage.html">War engine critical damage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engine-catastrophic-damage.html">War engine catastrophic damage</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engine-shields.html">War engine shields</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engines-in-close-combat.html">War engines in close combat</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engines-in-support-of-close-combats.html">War engines in support of close combats</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engines-in-firefights.html">War engines in firefights</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="war-engine-data-sheets.html">War engine data sheets</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="flyers.html">Flyers</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="flyer-readiness-states.html">Flyer readiness states</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="flyer-missions.html">Flyer missions</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="air-transport-mission.html">Air Transport mission</a>
+  </li>
+  <li class="nav-item" data-depth="4">
+    <a class="nav-link" href="ground-attack-mission.html">Ground Attack mission</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="4">
+    <a class="nav-link" href="intercept-mission.html">Intercept mission</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="flyers-and-flak.html">Flyers and Flak</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="hits-on-flyers.html">Hits on flyers</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../more/more.html">More</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="../more/quick-reference.html">Quick reference</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../experimental/experimental.html"><em>Experimental</em></a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../experimental/experimental-special-abilities.html">Experimental special abilities</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/biosave.html">Biosave</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/cc-blast.html">CC Blast</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/daemonbane.html">Daemonbane</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/destiny-not-fate.html">Destiny, Not Fate</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/ff-blast.html">FF Blast</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/frenzy.html">Frenzy</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/guided.html">Guided</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/manoeuvrable.html">Manoeuvrable</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/markerlights.html">Markerlights</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/portal.html">Portal</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/psychic-focus.html">Psychic Focus</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/robust.html">Robust</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/target-lock.html">Target Lock</a>
+  </li>
+</ul>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../experimental/war-engine-barging.html">War engine barging</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <a class="nav-link" href="../experimental/war-engine-orders.html">War engine orders</a>
+  </li>
+  <li class="nav-item" data-depth="2">
+    <button class="nav-item-toggle"></button>
+    <a class="nav-link" href="../experimental/experimental-flyer-missions.html">Experimental flyer missions</a>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/counter-strike-mission.html">Counter-strike mission</a>
+  </li>
+  <li class="nav-item" data-depth="3">
+    <a class="nav-link" href="../experimental/evac-mission.html">Evac mission</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Core</span>
+    <span class="version"></span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <a class="title" href="../../armies/index.html">Armies</a>
+    </li>
+    <li class="component">
+      <a class="title" href="../../battles/index.html">Battles</a>
+    </li>
+    <li class="component">
+      <a class="title" href="../../contributors-guide/overview.html">Contributor's Guide</a>
+    </li>
+    <li class="component is-current">
+      <a class="title" href="../index.html">Core</a>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main class="article">
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="../index.html">Core</a></li>
+    <li><a href="special-rules.html">Special rules</a></li>
+    <li><a href="flyers.html">Flyers</a></li>
+    <li><a href="flyer-missions.html">Flyer missions</a></li>
+    <li><a href="intercept-mission.html">Intercept mission</a></li>
+  </ul>
+</nav>
+<div class="edit-this-page"><a href="https://github.com/GameBrains/er-core/edit/master/modules/special-rules/pages/intercept-mission.adoc">Edit this Page</a></div>
+</div>
+  <div class="content">
+<aside class="toc sidebar" data-title="Contents" data-levels="2">
+  <div class="toc-menu"></div>
+</aside>
+<article class="doc">
+<h1 class="page">Intercept mission</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>[TODO: Add introductory text.]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_requirements_for_the_mission"><a class="anchor" href="#_requirements_for_the_mission"></a>Requirements for the mission</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>A detachment that is on an Intercept mission does not have to refuel and rearm until it has performed an interception&#8201;&#8212;&#8201;they can 'loiter' on combat air patrol (CAP), ready to intercept at a moment&#8217;s notice.
+This means that you can keep the detachment ready on the Intercept mission for multiple turns if they do not make an interception.</p>
+<div class="paragraph">
+<p>[TODO: What should happen if you want to cancel the Intercept mission and do something else with the detachment? Logically I suppose they must lose a turn in the Rearm state, so in a typical game (in which we&#8217;re doing well to get each flyer detachment into action more than once) it&#8217;d rarely be worthwhile to cancel Intercept orders.]</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_declare_the_mission"><a class="anchor" href="#_declare_the_mission"></a>Declare the mission</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>You must declare each Flyer detachment that you wish to perform this mission at the appropriate step in the Start phase.</p>
+</div>
+<div class="paragraph">
+<p>You may declare an Intercept mission with any Ready Flyer detachment that you have not already committed to another mission.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_perform_the_mission"><a class="anchor" href="#_perform_the_mission"></a>Perform the mission</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_declare_the_interception"><a class="anchor" href="#_declare_the_interception"></a>Declare the interception</h3>
+<div class="paragraph">
+<p>You may declare the interception when your opponent places a Flyer detachment on the table to carry out a flyer mission of any type&#8201;&#8212;&#8201;even an Intercept mission of their own.
+If you have more than one detachment on the Intercept mission, declare which one will will use for this particular interception.</p>
+</div>
+<div class="paragraph">
+<p>[TODO: Can a player declare more than one detachment for the interception?]</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_deploy_interceptors_and_resolve_the_aerial_combat_attacks"><a class="anchor" href="#_deploy_interceptors_and_resolve_the_aerial_combat_attacks"></a>Deploy interceptors and resolve the aerial combat attacks</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Place your interceptor models next to those of the enemy detachment that you chose to intercept.
+(This step is not essential, but it helps to show what is going on and it&#8217;s nice to see the models in action!)</p>
+</li>
+<li>
+<p>Each unit in the opposing detachments can attack one enemy unit.
+Start with the whichever unit has the highest Intercept value.
+Where Intercept values are the same:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Units that are on an Intercept mission attack first.</p>
+</li>
+<li>
+<p>If both detachments are on an Intercept mission, alternate between the two sides&#8201;&#8212;&#8201;the player who has the Initiative goes first.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Resolve each attack individually as follows:</p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Roll a number of hit dice equal to the Gunnery value of your attacking unit.
+Each die that scores equal to or more than the Armour value of the target unit is a hit.</p>
+</li>
+<li>
+<p>Resolve hits immediately and then move on to the next attack. (See <a href="hits-on-flyers.html" class="xref page">Hits on flyers</a>)</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Once all of the flyers involved in the aerial combat have attacked&#8201;&#8212;&#8201;or been driven off or destroyed before they can attack&#8201;&#8212;&#8201;remove the interceptor models from the play area.</p>
+</li>
+<li>
+<p>If any of the target units remain in the playing area then your opponent can now continue with the mission that you interrupted with the interception.</p>
+</li>
+</ol>
+</div>
+<div class="ulist">
+<div class="title">Related information</div>
+<ul>
+<li>
+<p><a href="../main-rules/the-start-phase.html" class="xref page">The Start phase</a></p>
+</li>
+<li>
+<p><a href="https://thehobby.zone/resources/e40k-compendium/Content/More/HouseRulesFrequentlyAskedQuestionsAndOtherNonsense/FAQ_InterceptingInterceptors.htm" target="_blank" rel="noopener">FAQ: Intercepting interceptors</a> (external URL)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>[TODO: Integrate the key points of the original FAQ into the Remastered rules.]</p>
+</div>
+</div>
+</div>
+</div>
+<nav class="pagination">
+  <span class="prev"><a href="ground-attack-mission.html">Ground Attack mission</a></span>
+  <span class="next"><a href="flyers-and-flak.html">Flyers and Flak</a></span>
+</nav>
+</article>
+  </div>
+</main>
+</div>
+<footer class="footer">
+  <p>This page was built using the Antora default UI.</p>
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script id="site-script" src="../../_/js/site.js" data-ui-root-path="../../_"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
