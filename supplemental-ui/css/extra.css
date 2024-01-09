@@ -112,3 +112,7 @@ ul.none {
 .lead {
     font-size: larger;
 }
+
+.edit-this-page {
+    display: none;
+}

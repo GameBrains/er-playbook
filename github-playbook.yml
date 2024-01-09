@@ -13,21 +13,17 @@ output:
   dir: ./docs
 
 content:
+  # When we want to show 'Edit this Page' link, change this setting and change the supplemental CSS for class `.edit-this-page` in `extra.css`.
+  edit_url: false
   sources:
     - url: https://github.com/GameBrains/er-contributors-guide.git
       branches: master
-      # Set `edit_url` to `false` to disable the 'Edit this Page' link for pages that originate from this repository.
-      # You can achieve the same thing if you add empty credentials (simply `@`) in front of the domain in the URL.
-      edit_url: true
     - url: https://github.com/GameBrains/er-core.git
       branches: master
-      edit_url: true
     - url: https://github.com/GameBrains/er-battles.git
       branches: main
-      edit_url: true
     - url: https://github.com/GameBrains/er-armies.git
       branches: main
-      edit_url: true
 
 ui:
   bundle:

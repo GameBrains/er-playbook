@@ -12,12 +12,11 @@ output:
   clean: true
 
 content:
+  # When we want to show 'Edit this Page' link, change this setting and change the supplemental CSS for class `.edit-this-page` in `extra.css`.
+  edit_url: false
   sources:
   - url: ../er-contributors-guide
     branches: HEAD
-    # Set `edit_url` to `false` to disable the 'Edit this Page' link for any page [all pages?] that originates from this repository.
-    # You can achieve the same thing if you add empty credentials (simply `@`) in front of the domain in the URL.
-    edit_url: false
   - url: ../er-core
     branches: HEAD
     start_path:
