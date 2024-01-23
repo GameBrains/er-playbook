@@ -31,24 +31,20 @@ i.fa.icon-caution::before {
     background: no-repeat url("../img/caution.svg");
 }
 
-.admonitionblock.e40k td.icon .icon-note:before {
-    background: no-repeat url("../img/note.svg");
-}
-
-.admonitionblock.e40k td.icon .icon-note:after {
-    content: "Difference from Epic 40,000" !important;
+.admonitionblock.option td.icon > i.fa.icon-note::before {
+    background: no-repeat url("../img/option.svg");
 }
 
 .admonitionblock.option td.icon .icon-note:after {
     content: "Option" !important;
 }
 
-.doc .admonitionblock.e40k .icon {
-    background-color: #fcc141;
+.doc .admonitionblock.option .icon {
+    background-color: #bf55c2;
 }
 
-.doc .admonitionblock.option .icon {
-    background-color: #b96cac;
+.doc .admonitionblock.caution .icon {
+    background-color: #ff8716;
 }
 
 .navbar {
@@ -115,4 +111,15 @@ ul.none {
 
 .edit-this-page {
     display: none;
+}
+
+a[href*="//"]:not([href*="epicremastered.com"]):after {
+    background-size: 100%;
+    background-image: url("../img/external-link.svg");
+    content: " ";
+    display: inline-block;
+    vertical-align: text-top;
+    height: 0.8em;
+    width: 0.8em;
+    margin-left: 0.15em;
 }

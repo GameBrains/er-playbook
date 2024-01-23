@@ -57,7 +57,7 @@ Once you've installed Antora and saved this playbook to a local directory, you'r
 
 == Project team
 
-Development of {project-name} is led by {uri-project-team}[the project team^] (external URL).
+Development of {project-name} is led by {uri-project-team}[the project team^].
 
 == Copyright and licence
 
