@@ -39,11 +39,14 @@ i.fa.icon-caution::before {
     content: "Option" !important;
 }
 
-.doc .admonitionblock.option .icon {
+/* Colouring of the 'option' admonition title.
+For some reason, the result differs in local and production outputs.
+This code favours production output at the expense of slightly odd local output.*/
+.doc .admonitionblock.option td.icon i.icon-note {
     background-color: #bf55c2;
 }
 
-.doc .admonitionblock.caution .icon {
+.doc .admonitionblock.caution .icon i.icon-caution {
     background-color: #ff8716;
 }
 
@@ -125,7 +128,7 @@ a[href*="//"]:not([href*="epicremastered.com"]):after {
 }
 
 summary.title {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 details > div.content {
