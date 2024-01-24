@@ -123,3 +123,11 @@ a[href*="//"]:not([href*="epicremastered.com"]):after {
     width: 0.8em;
     margin-left: 0.15em;
 }
+
+summary.title {
+    font-weight: 500;
+}
+
+details > div.content {
+    margin-left: 1em;
+}
