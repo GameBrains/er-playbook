@@ -181,3 +181,44 @@ where `n` is whatever call-out number or letter you want to identify.*/
         letter-spacing: -0.25ex;
         text-indent: -0.25ex;
     }
+
+/*Make sections of mainly text-based reference items more . Mainly to support a more
+small-screen-friendly alternative to tables.*/
+    .doc .small-text-group {
+        font-size: 0.8333rem;
+    }
+
+    .doc div.openblock.small-text-group {
+        margin-bottom: 2em;
+    }
+
+    .doc .small-text-group div.paragraph {
+        margin-top: 0.2em;
+    }
+
+    .doc .small-text-group div.ulist {
+        margin-top: 0.2em;
+    }
+
+    /*For labels on or in a small-text-group, underline and insert whitespace above.*/
+    .doc .small-text-group .title {
+        border-bottom: 1px solid #e1e1e1;
+        margin-top: 1em;
+    }
+
+    .doc .small-text-group li {
+        margin-bottom: 0.2em;
+    }
+
+/*Display a playing card icon before label text. Mainly intended in combination with the
+small-text-group class, to create a list of reference items that correspond to particular playing cards.*/
+    .doc .playing-card .title::before {
+            content: "";
+            position:relative;
+            top:2px;
+            background-image:url("../img/icon-playing-card.svg");
+            background-size: 100% 100%;
+            display: inline-block;
+            height: 1em;
+            width: 1em;
+        }
