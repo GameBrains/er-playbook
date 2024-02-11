@@ -51,12 +51,12 @@ asciidoc:
     
     # Orders and conditions with graphics, for inline usage
     advance-om: Advance orders marker
-    assault-om: Assault image:core:main-rules:Orders_Assault.png[width=16,height=16] orders marker
-    march-om: March image:core:main-rules:Orders_March.png[width=16,height=16] orders marker
-    overwatch-om: Overwatch image:core:main-rules:Orders_Overwatch.png[width=16,height=16] orders marker
-    special-om: Special image:core:main-rules:Orders_Special.png[width=16,height=16] orders marker
-    broken-cm: Broken image:core:main-rules:Conditions_Broken.png[width=16,height=16] condition marker
-    immobilised-cm: Immobilised image:core:main-rules:Conditions_Immobilised.png[width=16,height=16] condition marker
+    assault-om: Assault image:core:main-rules:marker-assault-orders.svg[width=16,height=16] orders marker
+    march-om: March image:core:main-rules:marker-march-orders.svg[width=16,height=16] orders marker
+    overwatch-om: Overwatch image:core:main-rules:marker-overwatch-orders.svg[width=16,height=16] orders marker
+    special-om: Special image:core:main-rules:marker-special-orders.svg[width=16,height=16] orders marker
+    broken-cm: Broken image:core:main-rules:marker-broken-condition.svg[width=16,height=16] condition marker
+    immobilised-cm: Immobilised image:core:main-rules:marker-immobilised-condition.svg[width=16,height=16] condition marker
 
     # Ability/vehicle variant keywords
     a-dying-race: <i>A Dying Race</i>
