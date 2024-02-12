@@ -50,7 +50,7 @@ asciidoc:
     e40k-diff: Difference from <i>Epic 40,000</i>&colon;&#160;
     
     # Orders and conditions with graphics, for inline usage
-    advance-om: Advance orders marker
+    advance-om: Advance image:core:main-rules:marker-advance-orders.svg[width=16,height=16] orders marker
     assault-om: Assault image:core:main-rules:marker-assault-orders.svg[width=16,height=16] orders marker
     march-om: March image:core:main-rules:marker-march-orders.svg[width=16,height=16] orders marker
     overwatch-om: Overwatch image:core:main-rules:marker-overwatch-orders.svg[width=16,height=16] orders marker

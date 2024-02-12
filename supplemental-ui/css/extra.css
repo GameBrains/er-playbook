@@ -225,10 +225,18 @@ small-text-group class, to create a list of reference items that correspond to p
 
 /*Insert a gap between floated item and surrounding content.
 (Mainly to separate images from paragraph text.)*/
-    .doc .float-gap.left {
+    .doc div.float-gap.left {
             margin: 1.3rem 0.6rem 0 0;
         }
 
-    .doc .float-gap.right {
+    .doc div.float-gap.right {
             margin: 1.3rem 0 0 0.6rem;
+        }
+
+    .doc span.float-gap.left {
+            margin: 0.33rem 0.6rem 0 0;
+        }
+
+    .doc span.float-gap.right {
+            margin: 0.33rem 0 0 0.6rem;
         }
