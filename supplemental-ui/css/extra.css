@@ -240,3 +240,15 @@ small-text-group class, to create a list of reference items that correspond to p
     .doc span.float-gap.right {
             margin: 0.33rem 0 0 0.6rem;
         }
+
+/*Implement horizontal scroll on wide tables.
+(Wrap the table in a open block with [role="scrollable"], to create the necessary <div>.)*/
+    .doc div.scrollable {
+        overflow-x:auto;
+    }
+
+/*Prevent excessive breaking of words in all table cells. When this makes tables too
+wide for the screen width, then the overflow class takes over to make the table scrollable.*/
+    .doc td.tableblock, .doc th.tableblock {
+        word-break: auto-phrase;
+    }
