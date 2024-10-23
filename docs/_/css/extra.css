@@ -1,0 +1,254 @@
+/*Customise the default admonition blocks to show icons.*/
+    .doc .admonitionblock .icon {
+        border-radius: 1rem;
+    }
+
+    i.fa[class^='icon-'],
+    i.fa[class*=' icon-']::before {
+        content: "";
+        height: 1.25rem;
+        width: 1.25rem;
+        margin-right: 0.25rem;
+        margin-left: -0.5rem;
+    }
+
+    i.fa.icon-note::before {
+        background: no-repeat url("../img/note.svg");
+    }
+
+    i.fa.icon-tip::before {
+        background: no-repeat url("../img/tip.svg");
+    }
+
+    i.fa.icon-important::before {
+        background: no-repeat url("../img/important.svg");
+    }
+
+    i.fa.icon-warning::before {
+        background: no-repeat url("../img/warning.svg");
+    }
+
+    i.fa.icon-caution::before {
+        background: no-repeat url("../img/caution.svg");
+    }
+
+/*Add new admonition blocks as variants on the defaults.*/
+    .admonitionblock.option td.icon > i.fa.icon-note::before {
+        background: no-repeat url("../img/option.svg");
+    }
+
+    .admonitionblock.option td.icon .icon-note:after {
+        content: "Option" !important;
+    }
+
+    /*Colour the variant admonition title boxes.
+    For some reason, the result differs in local and production outputs.
+    This code favours production output at the expense of slightly odd local output.*/
+        .doc .admonitionblock.option td.icon i.icon-note {
+            background-color: #bf55c2;
+        }
+
+/*Customise the default caution title box colour.
+The default is purple, which is rather unusual for a caution —
+and I want to use purple for the 'option' variant.*/
+    .doc .admonitionblock.caution .icon i.icon-caution {
+        background-color: #ff8716;
+    }
+
+/*Customise the navbar colour.*/
+    .navbar {
+        background-color: #534FF5;
+    }
+
+td.hdlist1 {
+    font-weight: 500;
+    vertical-align: top;
+}
+
+td.hdlist2 {
+    vertical-align: top;
+}
+
+div.title {
+    font-style: italic;
+    font-weight: 500;
+    color: #5d5d5d;
+}
+
+/*Customise the colour of sidebar/aside blocks.*/
+    div.sidebarblock {
+        background-color: #e4e4f2 !important;
+    }
+
+/*Colour spans of text, mainly for 'good' and 'bad' example purposes in the Contributor's Guide.*/
+    span.green {
+        color: limegreen;
+    }
+
+    span.red {
+        color: red;
+    }
+
+/*Customise the footnote text size.*/
+    .footnote {
+        font-size: 0.85em;
+    }
+
+/*Customise headings to make topics easier to scan.*/
+    h2 {
+        background-color: whitesmoke;
+        border-bottom: none !important;
+    }
+
+    h3 {
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    h3 code {
+        background-color: #e1e1e1;
+        font-family: monospace;
+    }
+
+    h4 {
+        font-size: 1.1em;
+        font-weight: 500 !important;
+    }
+
+/*List style without bullet icons.*/
+    ul.none {
+        list-style: none;
+    }
+
+.lead {
+    font-size: larger;
+}
+
+/*Hide the 'Edit this page' link while it is not in use with the project.*/
+    .edit-this-page {
+        display: none;
+    }
+
+/*Show an 'external link' icon for all links that lead away from the project domain.*/
+    a[href*="//"]:not([href*="epicremastered.com"]):after {
+        background-size: 100%;
+        background-image: url("../img/external-link.svg");
+        content: " ";
+        display: inline-block;
+        vertical-align: text-top;
+        height: 0.8em;
+        width: 0.8em;
+        margin-left: 0.15em;
+    }
+
+/*Improve the appearance of collapsible elements.
+Embolden the titles, which look okay in local builds but are too light in the production build.
+Add a left margin to the expanded content.*/
+    summary.title {
+        font-weight: 600;
+    }
+
+    details > div.content {
+        margin-left: 1em;
+    }
+
+/*Provide a way to clear floats on a container that holds floated elements.
+'.float-group:before' doesn't seem to make any difference to the output, but
+perhaps the example I found included it to handle some edge cases I'm not aware of?*/
+    .float-group:before,
+    .float-group:after {
+    content: "";
+    display: block;
+    }
+
+    .float-group:after {
+        clear: both;	
+    }
+
+/*Styles to use in a work-around to support image call-outs.
+To apply in the Asciidoc source, use `[.conum]#n#` inline,
+where `n` is whatever call-out number or letter you want to identify.*/
+    .doc .conum {
+        border: 1px solid currentColor;
+        border-radius: 100%;
+        display: inline-block;
+        font-family: var(--body-font-family);
+        font-size: calc(13.5 / var(--rem-base) * 1rem);
+        font-style: normal;
+        line-height: 1.2;
+        text-align: center;
+        width: 1.25em;
+        height: 1.25em;
+        letter-spacing: -0.25ex;
+        text-indent: -0.25ex;
+    }
+
+/*Make sections of mainly text-based reference items more . Mainly to support a more
+small-screen-friendly alternative to tables.*/
+    .doc .small-text-group {
+        font-size: 0.8333rem;
+    }
+
+    .doc div.openblock.small-text-group {
+        margin-bottom: 2em;
+    }
+
+    .doc .small-text-group div.paragraph {
+        margin-top: 0.2em;
+    }
+
+    .doc .small-text-group div.ulist {
+        margin-top: 0.2em;
+    }
+
+    /*For labels on or in a small-text-group, underline and insert whitespace above.*/
+    .doc .small-text-group .title {
+        border-bottom: 1px solid #e1e1e1;
+        margin-top: 1em;
+    }
+
+    .doc .small-text-group li {
+        margin-bottom: 0.2em;
+    }
+
+/*Display a playing card icon before label text. Mainly intended in combination with the
+small-text-group class, to create a list of reference items that correspond to particular playing cards.*/
+    .doc .playing-card .title::before {
+            content: "";
+            position:relative;
+            top:2px;
+            background-image:url("../img/icon-playing-card.svg");
+            background-size: 100% 100%;
+            display: inline-block;
+            height: 1em;
+            width: 1em;
+        }
+
+/*Insert a gap between floated item and surrounding content.
+(Mainly to separate images from paragraph text.)*/
+    .doc div.float-gap.left {
+            margin: 1.3rem 0.6rem 0 0;
+        }
+
+    .doc div.float-gap.right {
+            margin: 1.3rem 0 0 0.6rem;
+        }
+
+    .doc span.float-gap.left {
+            margin: 0.33rem 0.6rem 0 0;
+        }
+
+    .doc span.float-gap.right {
+            margin: 0.33rem 0 0 0.6rem;
+        }
+
+/*Implement horizontal scroll on wide tables.
+(Wrap the table in a open block with [role="scrollable"], to create the necessary <div>.)*/
+    .doc div.scrollable {
+        overflow-x:auto;
+    }
+
+/*Prevent excessive breaking of words in all table cells. When this makes tables too
+wide for the screen width, then the overflow class takes over to make the table scrollable.*/
+    .doc td.tableblock, .doc th.tableblock {
+        word-break: auto-phrase;
+    }
