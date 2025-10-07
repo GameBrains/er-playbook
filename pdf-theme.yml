@@ -1,0 +1,47 @@
+# To customise PDF themes, refer to the 'Asciidoctor PDF Theming' documentation: https://docs.asciidoctor.org/pdf-converter/latest/theme/
+
+extends: default-for-print
+
+base:
+  font_family: Noto Serif
+  font_size: 8
+  font_color: 333333
+  #font_color: ff0000 # Red color in hexadecimal (RRGGBB) (use only for testing, for a quick way to verify that the PDF output is using this theme).
+
+toc:
+  title:
+    font_size: 20
+    font_color: 000000
+  font_size: 12
+  font_color: 000000
+  levels: 3
+  spacing: 4
+  indent: 10
+
+# Add a logo
+#title-page:
+#  logo:
+#    image: image:assets/logo.png[]
+# Set the PDF cover image (doesn't look great by default, requires further setup).
+# cover:
+#   front:
+#     image: assets/cover.jpg # Path to the cover image
+#     fit: contain # Adjust how the image fits the page (contain, cover, or scale-down)
+#     align: center # Align the image (center, left, or right)
+#     valign: middle # Vertical alignment (top, middle, or bottom)
+
+admonition:
+  icon:
+    caution:
+      image: supplemental-ui/img/caution.svg
+    important:
+      image: supplemental-ui/img/important.svg
+    note:
+      image: supplemental-ui/img/note.svg
+# This doesn't work -- will have to code an extension for a custom [OPTION] admonition.
+#    note.option:
+#      image: supplemental-ui/img/option.svg
+    tip:
+      image: supplemental-ui/img/tip.svg
+    warning:
+      image: supplemental-ui/img/warning.svg

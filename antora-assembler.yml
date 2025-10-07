@@ -1,0 +1,25 @@
+# `root_level: 0` means that the Antora Assembler/PDF extension will generate a PDF for each *component*.
+# `root_level: 1` means that the Antora Assembler/PDF extension will generate a PDF for each *top-level entry in the navigation* structure.
+root_level: 0
+
+# For more granular control, set the `component_versions` key with appropriate filter values.
+# (See https://docs.antora.org/assembler/latest/configure-filter/.)
+component_version_filter:
+  names: ['!(armies|contributors-guide)']
+
+# By default, the extension uses the `bundle exec asciidoctor-pdf`command to build the outputs, if the `Gemfile` file is present.
+# To debug builds, or to load Asciidoctor extensions such as Asciidoctor Kroki, see documentation on the `build.command` key:
+# https://docs.antora.org/assembler/latest/configure-build/#command-key
+build:
+  command: bundle exec asciidoctor-pdf --sourcemap --trace
+  # `publish: true` is the default: It means that the PDF extension will also publish the PDFs alongside the HTML files in the site output, so you can make them directly accessible through the site.
+  publish: true
+  qualify_exports: true
+
+asciidoc:
+  attributes:
+    pdf-theme: ./pdf-theme.yml
+    # To place the table of contents (ToC) after the frontmatter in the PDF outputs, we have to place the `toc::[]` macro in the content immediately after the frontmatter.
+    # And then, where we don't want certain frontmatter to appear in the site output, we have to set conditions in the content to exclude it from the site output.
+    toc: macro
+    footnotes-title: Endnotes
