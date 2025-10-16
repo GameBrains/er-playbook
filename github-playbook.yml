@@ -42,8 +42,12 @@ asciidoc:
     uri-builder: https://builder.epicremastered.com
     page-pagination: true
     icons: font
-    e40k: <i>Epic 40,000</i>
-    e40k-diff: Difference from <i>Epic 40,000</i>&colon;&#160;
+    e40k: <em>Epic 40,000</em>
+    e40k-diff: 'Difference from {e40k}:'
+    data-sheet-modifier: <span class="label-ability-type">Data sheet modifier</span>
+    unit-ability: <span class="label-ability-type">Unit ability</span>
+    detachment-ability: <span class="label-ability-type">Detachment ability</span>
+    army-ability: <span class="label-ability-type">Army ability</span>
     
     # Orders and conditions with graphics, for inline usage
     advance-om: Advance image:core:main-rules:marker-advance-orders.svg[width=16,height=16] orders marker
