@@ -3,22 +3,22 @@
 extends: default-for-print
 
 base:
-  font_family: Noto Serif
-  font_size: 8
-  font_color: 333333
-  #font_color: ff0000 # Red color in hexadecimal (RRGGBB) (use only for testing, for a quick way to verify that the PDF output is using this theme).
+  font-family: Noto Serif
+  font-size: 8
+  font-color: 333333
+  #font-color: ff0000 # Red color in hexadecimal (RRGGBB) (use only for testing, for a quick way to verify that the PDF output is using this theme).
 
 toc:
   title:
-    font_size: 20
-    font_color: 000000
-  font_size: 12
-  font_color: 000000
+    font-size: 20
+    font-color: 000000
+  font-size: 12
+  font-color: 000000
   levels: 3
   spacing: 4
   indent: 10
 
-# Add a logo
+# Add a logo.
 #title-page:
 #  logo:
 #    image: image:assets/logo.png[]
@@ -45,3 +45,18 @@ admonition:
       image: supplemental-ui/img/tip.svg
     warning:
       image: supplemental-ui/img/warning.svg
+
+# Define styles for roles.
+role:
+  common-label-style: &common-label-style
+    font-style: bold
+    font-size: 6
+    border-offset: 4
+    border-radius: 2
+    background-color: eaeaea
+    font-color: 777
+  label-ability-type:
+    <<: *common-label-style
+  keyword:
+    font-style: italic
+    font-color: 000000
