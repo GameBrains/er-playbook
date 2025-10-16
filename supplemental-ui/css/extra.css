@@ -252,3 +252,19 @@ wide for the screen width, then the overflow class takes over to make the table 
     .doc td.tableblock, .doc th.tableblock {
         word-break: auto-phrase;
     }
+
+/*Implement styling for label roles.*/
+    .label-ability-type {
+        padding: .2em .6em .3em;
+        font-weight: 700;
+        border-radius: .25em;
+        font-size: 80%;
+        background-color: #eaeaea;
+        color: #777;
+    }
+
+/*.Implement styling for keyword roles.*/
+    .keyword {
+        font-style: italic;
+        color: #000
+    }
