@@ -8,7 +8,14 @@ antora:
 site:
   title: 'Epic Remastered'
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
-  url: https://epicremastered.com
+  # For preview with the local playbook, leave this value empty, so that cross-reference
+  # links will resolve to the local file system in HTML output, and to the corresponding
+  # bookmark in PDF output.
+  # Although, as I write this, the PDF extension is still under development, and whilst
+  # it does resolve references to pages/topic titles in the same PDF, it fails on
+  # sub-headings and on links to other PDFs — but it does at least render intelligible
+  # text, either anchor text or a path like "battles:scenario-special-rules:drop-pods.pdf").
+  url: 
   start_page: core::index.adoc
 
 output:
