@@ -102,3 +102,11 @@ heading:
   h4:
     border-width: [0, 0, 1, 0]
     border-color: eeeeee
+
+# Make the horizontal rule ~half width, so as not to confuse with rules under headings.
+thematic-break:
+  padding: [3, 124]
+  border-color: e1e1e1
+
+link:
+  font-color: 1565c0

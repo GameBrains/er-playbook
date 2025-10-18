@@ -263,8 +263,22 @@ wide for the screen width, then the overflow class takes over to make the table 
         color: #777;
     }
 
-/*.Implement styling for keyword roles.*/
+/*Implement styling for keyword roles.*/
     .keyword {
         font-style: italic;
         color: #000
+    }
+
+/*Make the horizontal rule (a.k.a. 'thematic break') smaller, to mirror a similar tweak
+in the PDF output (where the default wide rule can be confusing given other rules under
+headings).*/
+    hr {
+        margin: 1em auto !important;
+        width: 50%;
+    }
+
+/*Make the title of the sidebar block normal font style rather than the default italic
+and bold.*/
+    .sidebarblock>.content>.title {
+        font-style: normal;
     }
