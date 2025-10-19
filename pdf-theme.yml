@@ -61,6 +61,14 @@ admonition:
       image: supplemental-ui/img/warning.svg
       size: 14
 
+# Centre-align block images by default.
+image:
+  align: center
+
+# Centre-align tables by default.
+table:
+  align: center
+  
 # Define styles for roles.
 role:
   common-label-style: &common-label-style

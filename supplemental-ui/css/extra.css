@@ -269,9 +269,9 @@ wide for the screen width, then the overflow class takes over to make the table 
         color: #000
     }
 
-/*Make the horizontal rule (a.k.a. 'thematic break') smaller, to mirror a similar tweak
-in the PDF output (where the default wide rule can be confusing given other rules under
-headings).*/
+/*Make the horizontal rule (a.k.a. 'thematic break') smaller, to mirror a similar
+tweak in the PDF output (where the default wide rule can be confusing given other
+rules under headings).*/
     hr {
         margin: 1em auto !important;
         width: 50%;
@@ -281,4 +281,10 @@ headings).*/
 and bold.*/
     .sidebarblock>.content>.title {
         font-style: normal;
+    }
+
+/*Align tables to the centre by default.*/
+    table {
+        margin-left: auto;
+        margin-right: auto;
     }

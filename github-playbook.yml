@@ -36,14 +36,14 @@ runtime:
 
 asciidoc: 
   attributes:
-    project-name: <i>Epic Remastered</i>
+    project-name: "Epic Remastered"
     uri-project: https://epicremastered.com
     uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
     uri-builder: https://builder.epicremastered.com
     page-pagination: true
     icons: font
     e40k: <em>Epic 40,000</em>
-    e40k-diff: 'Difference from {e40k}:'
+    e40k-diff: "Difference from {e40k}:"
     data-sheet-modifier: <span class="label-ability-type">Data sheet modifier</span>
     unit-ability: <span class="label-ability-type">Unit ability</span>
     detachment-ability: <span class="label-ability-type">Detachment ability</span>
@@ -59,114 +59,114 @@ asciidoc:
     immobilised-cm: Immobilised image:core:main-rules:marker-immobilised-condition.svg[width=16,height=16] condition marker
 
     # Ability/vehicle variant keywords
-    a-dying-race: <i>A Dying Race</i>
-    anti-personnel: <i>Anti-personnel</i>
-    armour-1: <i>Armour +1</i>
-    artillery: <i>Artillery</i>
-    assault: <i>Assault</i>
-    assault-1: <i>Assault +1</i>
-    biosave: <i>Biosave</i>
-    bridge: <i>Bridge</i>
-    brood-telepathy: <i>Brood Telepathy</i>
-    cavalry: <i>Cavalry</i>
-    cc-blast: <i>CC Blast</i>
-    close-support: <i>Close Support</i>
-    daemonbane: <i>Daemonbane</i>
-    dauntless: <i>Dauntless</i>
-    deathwing: <i>Deathwing</i>
-    deep-strike: <i>Deep Strike</i>
-    destiny-not-fate: <i>Destiny, Not Fate</i>
-    dodge: <i>Dodge</i>
-    engineers: <i>Engineers</i>
-    fast: <i>Fast</i>
-    ff-blast: <i>FF Blast</i>
-    flak: <i>Flak</i>
-    flak-battery: <i>Flak Battery</i>
-    firepower-1: <i>Firepower +1</i>
-    frenzy: <i>Frenzy</i>
-    guided: <i>Guided</i>
-    heavy-weapons: <i>Heavy Weapons</i>
-    hero: <i>Hero</i>
-    hit-and-run: <i>Hit and Run</i>
-    hitch-1: <i>Hitch (1)</i>
-    hitch-2: <i>Hitch (2)</i>
-    hitch-3: <i>Hitch (3)</i>
-    hitch-4: <i>Hitch (4)</i>
-    hitch-x: <i>Hitch (X)</i>
-    holo-fields: <i>Holo-fields</i>
-    ignore-terrain: <i>Ignore Terrain</i>
-    infiltrators: <i>Infiltrators</i>
-    jump-packs: <i>Jump Packs</i>
-    jungle-fighters: <i>Jungle Fighters</i>
-    kroot: <i>Kroot</i>
-    long-range: <i>Long Range</i>
-    macro-weapon: <i>Macro-weapon</i>
-    manoeuvrable: <i>Manoeuvrable</i>
-    markerlights: <i>Markerlights</i>
-    medic: <i>Medic</i>
-    medium-range: <i>Medium Range</i>
-    no-retreat: <i>No Retreat</i>
-    open-top: <i>Open Top</i>
-    ordo-malleus: <i>Ordo Malleus</i>
-    ork-initiative: <i>Ork Initiative</i>
-    portal: <i>Portal</i>
-    psychic-beacon: <i>Psychic Beacon</i>
-    psychic-focus: <i>Psychic Focus</i>
-    psychic-null: <i>Psychic Null</i>
-    psyker: <i>Psyker</i>
-    rampage: <i>Rampage</i>
-    rapid-fire: <i>Rapid Fire</i>
-    ravenwing: <i>Ravenwing</i>
-    recovery: <i>Recovery</i>
-    regroup: <i>Regroup</i>
-    robust: <i>Robust</i>
-    save: <i>Save</i>
-    self-propelled-artillery: <Self-propelled Artillery</i>
-    shootier: <i>Shootier</i>
-    short-range: <i>Short Range</i>
-    skimmer: <i>Skimmer</i>
-    space-wolves: <i>Space Wolves</i>
-    stubborn: <i>Stubborn</i>
-    summon: <i>Summon</i>
-    support: <i>Support</i>
-    supreme-commander: <i>Supreme Commander</i>
-    synapse: <i>Synapse</i>
-    synapse-creature: <i>Synapse Creature</i>
-    target-lock: <i>Target Lock</i>
-    transport: <i>Transport</i>
-    transport-1: <i>Transport (1)</i>
-    transport-2: <i>Transport (2)</i>
-    transport-x: <i>Transport (X)</i>
-    tunneller: <i>Tunneller</i>
-    unbreakable: <i>Unbreakable</i>
-    walker: <i>Walker</i>
+    a-dying-race: "A Dying Race"
+    anti-personnel: "Anti-personnel"
+    armour-1: "Armour\u00A0+1"
+    artillery: "Artillery"
+    assault: "Assault"
+    assault-1: "Assault\u00A0+1"
+    biosave: "Biosave"
+    bridge: "Bridge"
+    brood-telepathy: "Brood\u00A0Telepathy"
+    cavalry: "Cavalry"
+    cc-blast: "CC\u00A0Blast"
+    close-support: "Close Support"
+    daemonbane: "Daemonbane"
+    dauntless: "Dauntless"
+    deathwing: "Deathwing"
+    deep-strike: "Deep Strike"
+    destiny-not-fate: "Destiny, Not Fate"
+    dodge: "Dodge"
+    engineers: "Engineers"
+    fast: "Fast"
+    ff-blast: "FF\u00A0Blast"
+    flak: "Flak"
+    flak-battery: "Flak Battery"
+    firepower-1: "Firepower\u00A0+1"
+    frenzy: "Frenzy"
+    guided: "Guided"
+    heavy-weapons: "Heavy Weapons"
+    hero: "Hero"
+    hit-and-run: "Hit\u00A0and\u00A0Run"
+    hitch-1: "Hitch\u00A0(1)"
+    hitch-2: "Hitch\u00A0(2)"
+    hitch-3: "Hitch\u00A0(3)"
+    hitch-4: "Hitch\u00A0(4)"
+    hitch-x: "Hitch\u00A0(X)"
+    holo-fields: "Holo-fields"
+    ignore-terrain: "Ignore Terrain"
+    infiltrators: "Infiltrators"
+    jump-packs: "Jump Packs"
+    jungle-fighters: "Jungle Fighters"
+    kroot: "Kroot"
+    long-range: "Long Range"
+    macro-weapon: "Macro-weapon"
+    manoeuvrable: "Manoeuvrable"
+    markerlights: "Markerlights"
+    medic: "Medic"
+    medium-range: "Medium Range"
+    no-retreat: "No\u00A0Retreat"
+    open-top: "Open\u00A0Top"
+    ordo-malleus: "Ordo Malleus"
+    ork-initiative: "Ork Initiative"
+    portal: "Portal"
+    psychic-beacon: "Psychic\u00A0Beacon"
+    psychic-focus: "Psychic\u00A0Focus"
+    psychic-null: "Psychic\u00A0Null"
+    psyker: "Psyker"
+    rampage: "Rampage"
+    rapid-fire: "Rapid Fire"
+    ravenwing: "Ravenwing"
+    recovery: "Recovery"
+    regroup: "Regroup"
+    robust: "Robust"
+    save: "Save"
+    self-propelled-artillery: "Self-propelled Artillery"
+    shootier: "Shootier"
+    short-range: "Short Range"
+    skimmer: "Skimmer"
+    space-wolves: "Space Wolves"
+    stubborn: "Stubborn"
+    summon: "Summon"
+    support: "Support"
+    supreme-commander: "Supreme Commander"
+    synapse: "Synapse"
+    synapse-creature: "Synapse\u00A0Creature"
+    target-lock: "Target Lock"
+    transport: "Transport"
+    transport-1: "Transport\u00A0(1)"
+    transport-2: "Transport\u00A0(2)"
+    transport-x: "Transport\u00A0(X)"
+    tunneller: "Tunneller"
+    unbreakable: "Unbreakable"
+    walker: "Walker"
 
     # 'Has {super-heavy weapon}' ability keywords
-    has-super-heavy-weapon: <i>Has {super-heavy weapon}</i>
-    has-anti-personnel: <i>Has Anti-Personnel</i>
-    has-barrage: <i>Has Barrage</i>
-    has-death-ray: <i>Has Death Ray</i>
-    has-disrupt: <i>Has Disrupt</i>
-    has-macro-weapon: <i>Has Macro-weapon</i>
-    has-super-lifta-droppa: <i>Has Super Lifta-droppa</i>
+    has-super-heavy-weapon: 'Has {super-heavy weapon}'
+    has-anti-personnel: 'Has Anti-Personnel'
+    has-barrage: 'Has Barrage'
+    has-death-ray: 'Has Death Ray'
+    has-disrupt: 'Has Disrupt'
+    has-macro-weapon: 'Has Macro-weapon'
+    has-super-lifta-droppa: 'Has Super Lifta-droppa'
     
     # Super-heavy weapon keywords
-    anti-tank: <i>Anti-tank</i>
-    barrage: <i>Barrage</i>
-    close-combat-weapons: <i>Close Combat Weapons</i>
-    death-ray: <i>Death Ray</i>
-    deathstrike-missile: <i>Deathstrike Missile</i>
-    disrupt: <i>Disrupt</i>
-    distortion-cannon: <i>Distortion Cannon</i>
-    heavy-barrage: <i>Heavy Barrage</i>
-    mega-cannon: <i>Mega-cannon</i>
-    pulsar: <i>Pulsar</i>
-    pulsar-x: <i>Pulsar (X)</i>
-    pulsar-d3: <i>Pulsar (D3)</i>
-    pulsar-d3plus1: <i>Pulsar (D3+1)</i>
-    pulsar-d6: <i>Pulsar (D6)</i>
-    ripper-tentacles: <i>Ripper Tentacles</i>
-    siege: <i>Siege</i>
-    super-lifta-droppa: <i>Super Lifta-droppa</i>
-    tank-destroyer: <i>Tank Destroyer</i>
-    vortex-missile: <i>Vortex Missile</i>
+    anti-tank: "Anti-tank"
+    barrage: "Barrage"
+    close-combat-weapons: "Close Combat Weapons"
+    death-ray: "Death\u00A0Ray"
+    deathstrike-missile: "Deathstrike Missile"
+    disrupt: "Disrupt"
+    distortion-cannon: "Distortion Cannon"
+    heavy-barrage: "Heavy Barrage"
+    mega-cannon: "Mega-cannon"
+    pulsar: "Pulsar"
+    pulsar-x: "Pulsar\u00A0(X)"
+    pulsar-d3: "Pulsar\u00A0(D3)"
+    pulsar-d3plus1: "Pulsar\u00A0(D3+1)"
+    pulsar-d6: "Pulsar\u00A0(D6)"
+    ripper-tentacles: "Ripper Tentacles"
+    siege: "Siege"
+    super-lifta-droppa: "Super Lifta-droppa"
+    tank-destroyer: "Tank Destroyer"
+    vortex-missile: "Vortex Missile"

@@ -50,14 +50,14 @@ runtime:
 
 asciidoc: 
   attributes:
-    project-name: 'Epic Remastered'
+    project-name: "Epic Remastered"
     uri-project: https://epicremastered.com
     uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
     uri-builder: https://builder.epicremastered.com
     page-pagination: true
     icons: font
     e40k: <em>Epic 40,000</em>
-    e40k-diff: 'Difference from {e40k}:'
+    e40k-diff: "Difference from {e40k}:"
     data-sheet-modifier: <span class="label-ability-type">Data sheet modifier</span>
     unit-ability: <span class="label-ability-type">Unit ability</span>
     detachment-ability: <span class="label-ability-type">Detachment ability</span>
@@ -73,87 +73,87 @@ asciidoc:
     immobilised-cm: Immobilised image:core:main-rules:marker-immobilised-condition.svg[width=16,height=16] condition marker
 
     # Ability/vehicle variant keywords
-    a-dying-race: 'A Dying Race'
-    anti-personnel: 'Anti-personnel'
-    armour-1: 'Armour +1'
-    artillery: 'Artillery'
-    assault: 'Assault'
-    assault-1: 'Assault +1'
-    biosave: 'Biosave'
-    bridge: 'Bridge'
-    brood-telepathy: 'Brood Telepathy'
-    cavalry: 'Cavalry'
-    cc-blast: 'CC Blast'
-    close-support: 'Close Support'
-    daemonbane: 'Daemonbane'
-    dauntless: 'Dauntless'
-    deathwing: 'Deathwing'
-    deep-strike: 'Deep Strike'
-    destiny-not-fate: 'Destiny, Not Fate'
-    dodge: 'Dodge'
-    engineers: 'Engineers'
-    fast: 'Fast'
-    ff-blast: 'FF Blast'
-    flak: 'Flak'
-    flak-battery: 'Flak Battery'
-    firepower-1: 'Firepower +1'
-    frenzy: 'Frenzy'
-    guided: 'Guided'
-    heavy-weapons: 'Heavy Weapons'
-    hero: 'Hero'
-    hit-and-run: 'Hit and Run'
-    hitch-1: 'Hitch (1)'
-    hitch-2: 'Hitch (2)'
-    hitch-3: 'Hitch (3)'
-    hitch-4: 'Hitch (4)'
-    hitch-x: 'Hitch (X)'
-    holo-fields: 'Holo-fields'
-    ignore-terrain: 'Ignore Terrain'
-    infiltrators: 'Infiltrators'
-    jump-packs: 'Jump Packs'
-    jungle-fighters: 'Jungle Fighters'
-    kroot: 'Kroot'
-    long-range: 'Long Range'
-    macro-weapon: 'Macro-weapon'
-    manoeuvrable: 'Manoeuvrable'
-    markerlights: 'Markerlights'
-    medic: 'Medic'
-    medium-range: 'Medium Range'
-    no-retreat: 'No Retreat'
-    open-top: 'Open Top'
-    ordo-malleus: 'Ordo Malleus'
-    ork-initiative: 'Ork Initiative'
-    portal: 'Portal'
-    psychic-beacon: 'Psychic Beacon'
-    psychic-focus: 'Psychic Focus'
-    psychic-null: 'Psychic Null'
-    psyker: 'Psyker'
-    rampage: 'Rampage'
-    rapid-fire: 'Rapid Fire'
-    ravenwing: 'Ravenwing'
-    recovery: 'Recovery'
-    regroup: 'Regroup'
-    robust: 'Robust'
-    save: 'Save'
-    self-propelled-artillery: 'Self-propelled Artillery'
-    shootier: 'Shootier'
-    short-range: 'Short Range'
-    skimmer: 'Skimmer'
-    space-wolves: 'Space Wolves'
-    stubborn: 'Stubborn'
-    summon: 'Summon'
-    support: 'Support'
-    supreme-commander: 'Supreme Commander'
-    synapse: 'Synapse'
-    synapse-creature: 'Synapse Creature'
-    target-lock: 'Target Lock'
-    transport: 'Transport'
-    transport-1: 'Transport (1)'
-    transport-2: 'Transport (2)'
-    transport-x: 'Transport (X)'
-    tunneller: 'Tunneller'
-    unbreakable: 'Unbreakable'
-    walker: 'Walker'
+    a-dying-race: "A Dying Race"
+    anti-personnel: "Anti-personnel"
+    armour-1: "Armour\u00A0+1"
+    artillery: "Artillery"
+    assault: "Assault"
+    assault-1: "Assault\u00A0+1"
+    biosave: "Biosave"
+    bridge: "Bridge"
+    brood-telepathy: "Brood\u00A0Telepathy"
+    cavalry: "Cavalry"
+    cc-blast: "CC\u00A0Blast"
+    close-support: "Close Support"
+    daemonbane: "Daemonbane"
+    dauntless: "Dauntless"
+    deathwing: "Deathwing"
+    deep-strike: "Deep Strike"
+    destiny-not-fate: "Destiny, Not Fate"
+    dodge: "Dodge"
+    engineers: "Engineers"
+    fast: "Fast"
+    ff-blast: "FF\u00A0Blast"
+    flak: "Flak"
+    flak-battery: "Flak Battery"
+    firepower-1: "Firepower\u00A0+1"
+    frenzy: "Frenzy"
+    guided: "Guided"
+    heavy-weapons: "Heavy Weapons"
+    hero: "Hero"
+    hit-and-run: "Hit\u00A0and\u00A0Run"
+    hitch-1: "Hitch\u00A0(1)"
+    hitch-2: "Hitch\u00A0(2)"
+    hitch-3: "Hitch\u00A0(3)"
+    hitch-4: "Hitch\u00A0(4)"
+    hitch-x: "Hitch\u00A0(X)"
+    holo-fields: "Holo-fields"
+    ignore-terrain: "Ignore Terrain"
+    infiltrators: "Infiltrators"
+    jump-packs: "Jump Packs"
+    jungle-fighters: "Jungle Fighters"
+    kroot: "Kroot"
+    long-range: "Long Range"
+    macro-weapon: "Macro-weapon"
+    manoeuvrable: "Manoeuvrable"
+    markerlights: "Markerlights"
+    medic: "Medic"
+    medium-range: "Medium Range"
+    no-retreat: "No\u00A0Retreat"
+    open-top: "Open\u00A0Top"
+    ordo-malleus: "Ordo Malleus"
+    ork-initiative: "Ork Initiative"
+    portal: "Portal"
+    psychic-beacon: "Psychic\u00A0Beacon"
+    psychic-focus: "Psychic\u00A0Focus"
+    psychic-null: "Psychic\u00A0Null"
+    psyker: "Psyker"
+    rampage: "Rampage"
+    rapid-fire: "Rapid Fire"
+    ravenwing: "Ravenwing"
+    recovery: "Recovery"
+    regroup: "Regroup"
+    robust: "Robust"
+    save: "Save"
+    self-propelled-artillery: "Self-propelled Artillery"
+    shootier: "Shootier"
+    short-range: "Short Range"
+    skimmer: "Skimmer"
+    space-wolves: "Space Wolves"
+    stubborn: "Stubborn"
+    summon: "Summon"
+    support: "Support"
+    supreme-commander: "Supreme Commander"
+    synapse: "Synapse"
+    synapse-creature: "Synapse\u00A0Creature"
+    target-lock: "Target Lock"
+    transport: "Transport"
+    transport-1: "Transport\u00A0(1)"
+    transport-2: "Transport\u00A0(2)"
+    transport-x: "Transport\u00A0(X)"
+    tunneller: "Tunneller"
+    unbreakable: "Unbreakable"
+    walker: "Walker"
 
     # 'Has {super-heavy weapon}' ability keywords
     has-super-heavy-weapon: 'Has {super-heavy weapon}'
@@ -165,22 +165,22 @@ asciidoc:
     has-super-lifta-droppa: 'Has Super Lifta-droppa'
     
     # Super-heavy weapon keywords
-    anti-tank: 'Anti-tank'
-    barrage: 'Barrage'
-    close-combat-weapons: 'Close Combat Weapons'
-    death-ray: 'Death Ray'
-    deathstrike-missile: 'Deathstrike Missile'
-    disrupt: 'Disrupt'
-    distortion-cannon: 'Distortion Cannon'
-    heavy-barrage: 'Heavy Barrage'
-    mega-cannon: 'Mega-cannon'
-    pulsar: 'Pulsar'
-    pulsar-x: 'Pulsar (X)'
-    pulsar-d3: 'Pulsar (D3)'
-    pulsar-d3plus1: 'Pulsar (D3+1)'
-    pulsar-d6: 'Pulsar (D6)'
-    ripper-tentacles: 'Ripper Tentacles'
-    siege: 'Siege'
-    super-lifta-droppa: 'Super Lifta-droppa'
-    tank-destroyer: 'Tank Destroyer'
-    vortex-missile: 'Vortex Missile'
+    anti-tank: "Anti-tank"
+    barrage: "Barrage"
+    close-combat-weapons: "Close Combat Weapons"
+    death-ray: "Death\u00A0Ray"
+    deathstrike-missile: "Deathstrike Missile"
+    disrupt: "Disrupt"
+    distortion-cannon: "Distortion Cannon"
+    heavy-barrage: "Heavy Barrage"
+    mega-cannon: "Mega-cannon"
+    pulsar: "Pulsar"
+    pulsar-x: "Pulsar\u00A0(X)"
+    pulsar-d3: "Pulsar\u00A0(D3)"
+    pulsar-d3plus1: "Pulsar\u00A0(D3+1)"
+    pulsar-d6: "Pulsar\u00A0(D6)"
+    ripper-tentacles: "Ripper Tentacles"
+    siege: "Siege"
+    super-lifta-droppa: "Super Lifta-droppa"
+    tank-destroyer: "Tank Destroyer"
+    vortex-missile: "Vortex Missile"
