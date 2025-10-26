@@ -85,7 +85,7 @@ role:
     font-color: 000000
 
 codespan:
-  background-color: #F5F5F5
+  background-color: F5F5F5
   border-offset: 2
 
 caption:
@@ -118,3 +118,55 @@ thematic-break:
 
 link:
   font-color: 1565c0
+
+header:
+  height: 13mm
+  line-height: 1
+  recto:
+    left:
+      content: '{project-name}: {doctitle}'
+      font-color: #999999
+      font-style: italic
+    right:
+        content: '{section-or-chapter-title}'
+        font-color: #999999
+        font-style: italic
+  verso:
+    left:
+      content: '{section-or-chapter-title}'
+      font-color: #999999
+      font-style: italic
+    right:
+        content: '{project-name}: {doctitle}'
+        font-color: #999999
+        font-style: italic
+
+footer:
+  height: 13mm
+  line-height: 1
+  recto:
+    left:
+      content: '{revnumber} -- {docdate}'
+      font-color: 999999
+      font-style: italic
+    right:
+      content: '{page-number}'
+  verso:
+    left:
+      content: '{page-number}'
+    right:
+      content: '{revnumber} -- {docdate}'
+      font-color: #999999
+      font-style: italic
+
+running-content:
+  start-at: body
+
+# Page numbering: The idea here is to use Roman numerals for the frontmatter, then switch to Arabic numerals for the rest of the document. However, at the time of writing this, the outputs only show Arabic numerals -- so there's more troubleshooting to do.
+page-numbering:
+  start-at: title
+  front:
+    style: roman
+  body:
+    start-at: 1
+    style: decimal
