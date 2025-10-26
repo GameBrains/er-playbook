@@ -1,25 +1,30 @@
 antora:
   extensions:
   - require: '@antora/lunr-extension'
+  # PDF extension: Uncomment only when we're ready to attempt to build and publish PDFs on the production site for the first time.
+  #- require: '@antora/pdf-extension'
 
 site:
-  title: Epic Remastered
+  title: 'Epic Remastered'
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
   url: https://epicremastered.com
-  start_page: core::index.adoc
+  start_page: home::index.adoc
 
 output:
   clean: true
   dir: ./docs
 
 content:
-  # When we want to show 'Edit this Page' link, change this setting and change the supplemental CSS for class `.edit-this-page` in `extra.css`.
+  # When we want to show 'Edit this page' link, change this setting to 'true' and comment out the supplemental CSS for class `.edit-this-page` in `extra.css`, to deactivate `display: none;`.
   edit_url: false
   sources:
     - url: https://github.com/GameBrains/er-contributors-guide.git
       branches: master
     - url: https://github.com/GameBrains/er-core.git
       branches: master
+      start_paths:
+      - core
+      - home
     - url: https://github.com/GameBrains/er-battles.git
       branches: main
     - url: https://github.com/GameBrains/er-armies.git
@@ -29,6 +34,8 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+  # The default output directory of '_' for assets is problematic when building the Android app, so we specify a proper name.
+  output_dir: assets
   supplemental_files: ./supplemental-ui
 
 runtime:
@@ -59,87 +66,87 @@ asciidoc:
     immobilised-cm: Immobilised image:core:main-rules:marker-immobilised-condition.svg[width=16,height=16] condition marker
 
     # Ability/vehicle variant keywords
-    a-dying-race: "A Dying Race"
-    anti-personnel: "Anti-personnel"
-    armour-1: "Armour\u00A0+1"
-    artillery: "Artillery"
-    assault: "Assault"
-    assault-1: "Assault\u00A0+1"
-    biosave: "Biosave"
-    bridge: "Bridge"
-    brood-telepathy: "Brood\u00A0Telepathy"
-    cavalry: "Cavalry"
-    cc-blast: "CC\u00A0Blast"
-    close-support: "Close Support"
-    daemonbane: "Daemonbane"
-    dauntless: "Dauntless"
-    deathwing: "Deathwing"
-    deep-strike: "Deep Strike"
-    destiny-not-fate: "Destiny, Not Fate"
-    dodge: "Dodge"
-    engineers: "Engineers"
-    fast: "Fast"
-    ff-blast: "FF\u00A0Blast"
-    flak: "Flak"
-    flak-battery: "Flak Battery"
-    firepower-1: "Firepower\u00A0+1"
-    frenzy: "Frenzy"
-    guided: "Guided"
-    heavy-weapons: "Heavy Weapons"
-    hero: "Hero"
-    hit-and-run: "Hit\u00A0and\u00A0Run"
-    hitch-1: "Hitch\u00A0(1)"
-    hitch-2: "Hitch\u00A0(2)"
-    hitch-3: "Hitch\u00A0(3)"
-    hitch-4: "Hitch\u00A0(4)"
-    hitch-x: "Hitch\u00A0(X)"
-    holo-fields: "Holo-fields"
-    ignore-terrain: "Ignore Terrain"
-    infiltrators: "Infiltrators"
-    jump-packs: "Jump Packs"
-    jungle-fighters: "Jungle Fighters"
-    kroot: "Kroot"
-    long-range: "Long Range"
-    macro-weapon: "Macro-weapon"
-    manoeuvrable: "Manoeuvrable"
-    markerlights: "Markerlights"
-    medic: "Medic"
-    medium-range: "Medium Range"
-    no-retreat: "No\u00A0Retreat"
-    open-top: "Open\u00A0Top"
-    ordo-malleus: "Ordo Malleus"
-    ork-initiative: "Ork Initiative"
-    portal: "Portal"
-    psychic-beacon: "Psychic\u00A0Beacon"
-    psychic-focus: "Psychic\u00A0Focus"
-    psychic-null: "Psychic\u00A0Null"
-    psyker: "Psyker"
-    rampage: "Rampage"
-    rapid-fire: "Rapid Fire"
-    ravenwing: "Ravenwing"
-    recovery: "Recovery"
-    regroup: "Regroup"
-    robust: "Robust"
-    save: "Save"
-    self-propelled-artillery: "Self-propelled Artillery"
-    shootier: "Shootier"
-    short-range: "Short Range"
-    skimmer: "Skimmer"
-    space-wolves: "Space Wolves"
-    stubborn: "Stubborn"
-    summon: "Summon"
-    support: "Support"
-    supreme-commander: "Supreme Commander"
-    synapse: "Synapse"
-    synapse-creature: "Synapse\u00A0Creature"
-    target-lock: "Target Lock"
-    transport: "Transport"
-    transport-1: "Transport\u00A0(1)"
-    transport-2: "Transport\u00A0(2)"
-    transport-x: "Transport\u00A0(X)"
-    tunneller: "Tunneller"
-    unbreakable: "Unbreakable"
-    walker: "Walker"
+    a-dying-race: "·A Dying Race·"
+    anti-personnel: "·Anti-personnel·"
+    armour-1: "·Armour\u00A0+1·"
+    artillery: "·Artillery·"
+    assault: "·Assault·"
+    assault-1: "·Assault\u00A0+1·"
+    biosave: "·Biosave·"
+    bridge: "·Bridge·"
+    brood-telepathy: "·Brood\u00A0Telepathy·"
+    cavalry: "·Cavalry·"
+    cc-blast: "·CC\u00A0Blast·"
+    close-support: "·Close Support·"
+    daemonbane: "·Daemonbane·"
+    dauntless: "·Dauntless·"
+    deathwing: "·Deathwing·"
+    deep-strike: "·Deep Strike·"
+    destiny-not-fate: "·Destiny, Not Fate·"
+    dodge: "·Dodge·"
+    engineers: "·Engineers·"
+    fast: "·Fast·"
+    ff-blast: "·FF\u00A0Blast·"
+    flak: "·Flak·"
+    flak-battery: "·Flak Battery·"
+    firepower-1: "·Firepower\u00A0+1·"
+    frenzy: "·Frenzy·"
+    guided: "·Guided·"
+    heavy-weapons: "·Heavy Weapons·"
+    hero: "·Hero·"
+    hit-and-run: "·Hit\u00A0and\u00A0Run·"
+    hitch-1: "·Hitch\u00A0(1)·"
+    hitch-2: "·Hitch\u00A0(2)·"
+    hitch-3: "·Hitch\u00A0(3)·"
+    hitch-4: "·Hitch\u00A0(4)·"
+    hitch-x: "·Hitch\u00A0(X)·"
+    holo-fields: "·Holo-fields·"
+    ignore-terrain: "·Ignore Terrain·"
+    infiltrators: "·Infiltrators·"
+    jump-packs: "·Jump Packs·"
+    jungle-fighters: "·Jungle Fighters·"
+    kroot: "·Kroot·"
+    long-range: "·Long Range·"
+    macro-weapon: "·Macro-weapon·"
+    manoeuvrable: "·Manoeuvrable·"
+    markerlights: "·Markerlights·"
+    medic: "·Medic·"
+    medium-range: "·Medium Range·"
+    no-retreat: "·No\u00A0Retreat·"
+    open-top: "·Open\u00A0Top·"
+    ordo-malleus: "·Ordo Malleus·"
+    ork-initiative: "·Ork Initiative·"
+    portal: "·Portal·"
+    psychic-beacon: "·Psychic\u00A0Beacon·"
+    psychic-focus: "·Psychic\u00A0Focus·"
+    psychic-null: "·Psychic\u00A0Null·"
+    psyker: "·Psyker·"
+    rampage: "·Rampage·"
+    rapid-fire: "·Rapid Fire·"
+    ravenwing: "·Ravenwing·"
+    recovery: "·Recovery·"
+    regroup: "·Regroup·"
+    robust: "·Robust·"
+    save: "·Save·"
+    self-propelled-artillery: "·Self-propelled Artillery·"
+    shootier: "·Shootier·"
+    short-range: "·Short Range·"
+    skimmer: "·Skimmer·"
+    space-wolves: "·Space Wolves·"
+    stubborn: "·Stubborn·"
+    summon: "·Summon·"
+    support: "·Support·"
+    supreme-commander: "·Supreme Commander·"
+    synapse: "·Synapse·"
+    synapse-creature: "·Synapse\u00A0Creature·"
+    target-lock: "·Target Lock·"
+    transport: "·Transport·"
+    transport-1: "·Transport\u00A0(1)·"
+    transport-2: "·Transport\u00A0(2)·"
+    transport-x: "·Transport\u00A0(X)·"
+    tunneller: "·Tunneller·"
+    unbreakable: "·Unbreakable·"
+    walker: "·Walker·"
 
     # 'Has {super-heavy weapon}' ability keywords
     has-super-heavy-weapon: 'Has {super-heavy weapon}'

@@ -1,22 +1,17 @@
 antora:
   extensions:
   - require: '@antora/lunr-extension'
-  # Uncomment the following line only when you have installed the prerequisites for Antora Assembler and the PDF extension,
-  # and you wish to preview PDF outputs on your local machine.
+  # PDF extension: Uncomment the following line only when you have installed the prerequisites for Antora Assembler and the PDF extension, and you wish to preview PDF outputs on your local machine.
   - require: '@antora/pdf-extension'
 
 site:
   title: 'Epic Remastered'
   # Antora generates the 404 page and sitemap files only when the `url` property is set.
-  # For preview with the local playbook, leave this value empty, so that cross-reference
-  # links will resolve to the local file system in HTML output, and to the corresponding
-  # bookmark in PDF output.
-  # Although, as I write this, the PDF extension is still under development, and whilst
-  # it does resolve references to pages/topic titles in the same PDF, it fails on
-  # sub-headings and on links to other PDFs — but it does at least render intelligible
-  # text, either anchor text or a path like "battles:scenario-special-rules:drop-pods.pdf").
+  # For preview with the local playbook, leave this value empty, so that cross-reference links will resolve to the local file system in HTML output, and to the corresponding bookmark in PDF output.
+  # Although, as I write this, the PDF extension is still under development, and whilst it does resolve references to pages/topic titles in the same PDF, it fails on sub-headings and on links to other PDFs.
+  # But it does at least render intelligible text, either anchor text or a path like "battles:scenario-special-rules:drop-pods.pdf").
   url: 
-  start_page: core::index.adoc
+  start_page: home::index.adoc
 
 output:
   clean: true
@@ -29,19 +24,19 @@ content:
     branches: HEAD
   - url: ../er-core
     branches: HEAD
-    start_path:
+    start_paths:
+      - core
+      - home
   - url: ../er-battles
     branches: HEAD
-    start_path:
   - url: ../er-armies
     branches: HEAD
-    start_path: 
 
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
-  # The default '_' directory for assets is problematic when building the Android app, so we specify a proper name.  
+  # The default output directory of '_' for assets is problematic when building the Android app, so we specify a proper name.
   output_dir: assets
   supplemental_files: ./supplemental-ui
 
