@@ -5,7 +5,7 @@ root_level: 0
 # For more granular control, set the `component_versions` key with appropriate filter values.
 # (See https://docs.antora.org/assembler/latest/configure-filter/.)
 component_version_filter:
-  names: ['!(armies|contributors-guide)']
+  names: ['(core|battles)']
 
 # By default, the extension uses the `bundle exec asciidoctor-pdf`command to build the outputs, if the `Gemfile` file is present.
 # To debug builds, or to load Asciidoctor extensions such as Asciidoctor Kroki, see documentation on the `build.command` key:
