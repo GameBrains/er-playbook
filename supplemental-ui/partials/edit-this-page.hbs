@@ -1,6 +1,6 @@
 {{#with (resolvePage page.relativeSrcPath model=false)}}
 {{#with ./assembler.pdf}}
-<p><a href="{{{relativize ./file.pub.url}}}{{{./fragment}}}">PDF</a></p>
+<p><a href="{{{relativize ./file.pub.url}}}{{{./fragment}}}" target="_blank">PDF</a></p>
 {{/with}}
 {{/with}}
 {{#if (and page.fileUri (not env.CI))}}

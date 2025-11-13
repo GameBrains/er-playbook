@@ -119,6 +119,9 @@ thematic-break:
 link:
   font-color: 1565c0
 
+running-content:
+  start-at: body
+
 header:
   height: 13mm
   line-height: 1
@@ -158,9 +161,6 @@ footer:
       content: '{revnumber} -- {docdate}'
       font-color: #999999
       font-style: italic
-
-running-content:
-  start-at: body
 
 # Page numbering: The idea here is to use Roman numerals for the frontmatter, then switch to Arabic numerals for the rest of the document. However, at the time of writing this, the outputs only show Arabic numerals -- so there's more troubleshooting to do.
 page-numbering:
