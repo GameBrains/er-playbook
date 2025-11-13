@@ -45,7 +45,7 @@ runtime:
 
 asciidoc: 
   attributes:
-    project-name: "Epic Remastered"
+    project-name: <em>Epic Remastered</em>
     uri-project: https://epicremastered.com
     uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
     uri-builder: https://builder.epicremastered.com
