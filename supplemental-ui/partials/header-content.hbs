@@ -10,7 +10,7 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/index.html">Core</a>
+        <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/core/index.html">Core</a>
         <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/battles/index.html">Battles</a>
         <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/armies/index.html">Armies</a>
 <!--    <div class="navbar-item has-dropdown is-hoverable">
@@ -24,7 +24,7 @@
         <div class="navbar-item has-dropdown is-hoverable">
           <span class="navbar-link">Resources</span>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/core/downloads.html">Downloads</a>
+            <a class="navbar-item" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/home/downloads.html">Downloads</a>
             <a class="navbar-item" href="https://builder.epicremastered.com/" target="_blank">Detachment Builder</a>
             <a class="navbar-item" href="https://thehobby.zone/resources/e40k-compendium" target="_blank">Epic 40,000 Compendium</a>
           </div>
@@ -39,7 +39,7 @@
           <div id="search-field" class="field has-filter">
             <input id="search-input" type="text" placeholder="Search…"{{#if page.home}} autofocus{{/if}}>
             <span class="control">
-              <a class="button is-primary" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/core/search-functions.html" title="Click to learn about advanced search functionality">?</a>
+              <a class="button is-primary" href="{{{or site.url (or siteRootUrl siteRootPath)}}}/home/search-functions.html" title="Click to learn about advanced search functionality">?</a>
             </span>
             <label class="filter checkbox"  title="Select to narrow your results to the current component only">
               <input id="search-checkbox" type="checkbox" data-facet-filter="component:{{page.component.name}}"> only this component
