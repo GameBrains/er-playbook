@@ -164,12 +164,5 @@ footer:
       font-color: #999999
       font-style: italic
 
-# Page numbering for frontmatter should default to Roman numerals, but that isn't working. This hints at some misconfiguration I haven't identified yet.
-# I've tried to force the behaviour with the code below, but this doesn't work either — but it does cause the printed page numbers to count from '1' at the cover page, instead of defaulting to count from 0. This at least has the marginal benefit of alignment with the way that PDF readers count pages.
 page-numbering:
-  start-at: title
-  front:
-    style: roman
-  body:
-    start-at: 1
-    style: decimal
+  start-at: after-toc # `after-toc` yields Roman numerals for the frontmatter, and then Arabic numerals from '1' after the table of contents.
