@@ -2,7 +2,7 @@ antora:
   extensions:
   - require: '@antora/lunr-extension'
   # PDF extension: Uncomment only when we're ready to attempt to build and publish PDFs on the production site for the first time.
-  #- require: '@antora/pdf-extension'
+  - require: '@antora/pdf-extension'
 
 site:
   title: 'Epic Remastered'
