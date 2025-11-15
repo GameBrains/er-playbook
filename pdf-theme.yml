@@ -24,10 +24,10 @@ toc:
 # Set the PDF cover image (doesn't look great by default, requires further setup).
 # cover:
 #   front:
-#     image: assets/cover.jpg # Path to the cover image
-#     fit: contain # Adjust how the image fits the page (contain, cover, or scale-down)
-#     align: center # Align the image (center, left, or right)
-#     valign: middle # Vertical alignment (top, middle, or bottom)
+#     image: assets/cover.jpg # Path to the cover image.
+#     fit: contain # Adjust how the image fits the page (contain, cover, or scale-down).
+#     align: center # Align the image, horizontal axis (center, left, or right).
+#     valign: middle # Align the image, vertical axis (top, middle, or bottom).
 
 admonition:
   label:
@@ -83,6 +83,8 @@ role:
   keyword:
     font-style: italic
     font-color: 000000
+  subdued:
+    font-color: 999999
 
 codespan:
   background-color: F5F5F5
@@ -162,7 +164,8 @@ footer:
       font-color: #999999
       font-style: italic
 
-# Page numbering: The idea here is to use Roman numerals for the frontmatter, then switch to Arabic numerals for the rest of the document. However, at the time of writing this, the outputs only show Arabic numerals -- so there's more troubleshooting to do.
+# Page numbering for frontmatter should default to Roman numerals, but that isn't working. This hints at some misconfiguration I haven't identified yet.
+# I've tried to force the behaviour with the code below, but this doesn't work either — but it does cause the printed page numbers to count from '1' at the cover page, instead of defaulting to count from 0. This at least has the marginal benefit of alignment with the way that PDF readers count pages.
 page-numbering:
   start-at: title
   front:
