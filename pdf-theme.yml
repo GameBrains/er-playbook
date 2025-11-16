@@ -1,0 +1,168 @@
+# To customise PDF themes, refer to the 'Asciidoctor PDF Theming' documentation: https://docs.asciidoctor.org/pdf-converter/latest/theme/
+
+extends: default-for-print
+
+base:
+  font-family: Noto Serif
+  font-size: 8
+  font-color: 333333
+
+toc:
+  title:
+    font-size: 20
+    font-color: 000000
+  font-size: 12
+  font-color: 000000
+  levels: 3
+  spacing: 4
+  indent: 10
+
+# Add a logo.
+#title-page:
+#  logo:
+#    image: image:assets/logo.png[]
+# Set the PDF cover image (doesn't look great by default, requires further setup).
+# cover:
+#   front:
+#     image: assets/cover.jpg # Path to the cover image.
+#     fit: contain # Adjust how the image fits the page (contain, cover, or scale-down).
+#     align: center # Align the image, horizontal axis (center, left, or right).
+#     valign: middle # Align the image, vertical axis (top, middle, or bottom).
+
+admonition:
+  label:
+    text-transform: none
+    font-color: ffffff
+    font-style: bold
+  border-width: 0.5
+  border-color: f5f5f5
+  border-radius: 4
+  padding: [4, 6, 4, 6]
+  background-color: f9f9f9
+  column-rule-width: 0
+  icon:
+    caution:
+      image: supplemental-ui/img/caution.svg
+      size: 14
+    important:
+      image: supplemental-ui/img/important.svg
+      size: 14
+    note:
+      image: supplemental-ui/img/note.svg
+      size: 14
+# This doesn't work -- will have to code an extension for a custom [OPTION] admonition.
+#    note.option:
+#      image: supplemental-ui/img/option.svg
+    tip:
+      image: supplemental-ui/img/tip.svg
+      size: 14
+      stroke-color: 348c38
+    warning:
+      image: supplemental-ui/img/warning.svg
+      size: 14
+
+# Centre-align block images by default.
+image:
+  align: center
+
+# Centre-align tables by default.
+table:
+  align: center
+  
+# Define styles for roles.
+role:
+  common-label-style: &common-label-style
+    font-style: bold
+    font-size: 6
+    border-offset: 4
+    border-radius: 2
+    background-color: eaeaea
+    font-color: 777
+  label-ability-type:
+    <<: *common-label-style
+  keyword:
+    font-style: italic
+    font-color: 000000
+  subdued:
+    font-color: 999999
+
+codespan:
+  background-color: F5F5F5
+  border-offset: 2
+
+caption:
+  font-style: bold_italic
+  font-size: 8
+
+sidebar:
+  background-color: e4e4f2
+  title:
+    font-style: normal
+
+example:
+  border-color: 5d5d5d
+
+heading:
+  h2:
+    border-width: [0, 0, 2, 0]
+    border-color: 5d5d5d
+  h3:
+    border-width: [0, 0, 1, 0]
+    border-color: 5d5d5d
+  h4:
+    border-width: [0, 0, 1, 0]
+    border-color: eeeeee
+
+# Make the horizontal rule ~half width, so as not to confuse with rules under headings.
+thematic-break:
+  padding: [3, 124]
+  border-color: e1e1e1
+
+link:
+  font-color: 1565c0
+
+running-content:
+  start-at: body
+
+header:
+  height: 13mm
+  line-height: 1
+  recto:
+    left:
+      content: '{project-name}: {doctitle}'
+      font-color: #999999
+      font-style: italic
+    right:
+        content: '{section-or-chapter-title}'
+        font-color: #999999
+        font-style: italic
+  verso:
+    left:
+      content: '{section-or-chapter-title}'
+      font-color: #999999
+      font-style: italic
+    right:
+        content: '{project-name}: {doctitle}'
+        font-color: #999999
+        font-style: italic
+
+footer:
+  height: 13mm
+  line-height: 1
+  recto:
+    left:
+      content: '{revnumber} -- {docdate}'
+      font-color: 999999
+      font-style: italic
+    right:
+      content: '{page-number}'
+  verso:
+    left:
+      content: '{page-number}'
+    right:
+      content: '{revnumber} -- {docdate}'
+      font-color: #999999
+      font-style: italic
+
+page-numbering:
+  start-at: after-toc # `after-toc` yields Roman numerals for the frontmatter, and then Arabic numerals from '1' after the table of contents.

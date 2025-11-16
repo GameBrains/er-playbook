@@ -268,6 +268,15 @@ wide for the screen width, then the overflow class takes over to make the table 
         font-style: italic;
         color: #000
     }
+
+/*Make the horizontal rule (a.k.a. 'thematic break') smaller, to mirror a similar
+tweak in the PDF output (where the default wide rule can be confusing given other
+rules under headings).*/
+    hr {
+        margin: 1em auto !important;
+        width: 50%;
+    }
+
 /*Make the title of the sidebar block normal font style rather than the default italic
 and bold.*/
     .sidebarblock>.content>.title {
@@ -278,4 +287,9 @@ and bold.*/
     table {
         margin-left: auto;
         margin-right: auto;
+    }
+
+/*Make content less prominent. Mainly intended for text that displays secondary information, such as document metadata.*/
+    .subdued {
+        color: #999;
     }

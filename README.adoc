@@ -2,7 +2,6 @@
 = {project-name} -- Playbook
 // URIs:
 :uri-project: https://epicremastered.com
-:uri-project-team: https://github.com/orgs/GameBrains/teams/er-project-team
 :uri-antora-docs: https://docs.antora.org/antora/latest
 :uri-docs-install: {uri-antora-docs}/install/install-antora/
 :uri-docs-playbook: {uri-antora-docs}/playbook/playbook-schema/
@@ -13,19 +12,21 @@
 This repository contains the {uri-docs-playbook}[Antora playbook] for the {project-name} project.
 
 Antora is the static site generator software that we use to build the project output that you find at {uri-project}.
-The playbook tells Antora where to find the components of the project. 
+The playbook holds contains important configuration files and tells Antora where to find the components of the project.
 
 The components include:
 
-* *_Core_* -- The main body of rules content.
-* *_Battles_* -- Rules for setup of the playing area, scenarios and campaigns.
-* *_Armies_* -- Army lists for each faction in the game.
-* *_Contributor's Guide_* -- Guidance for project contributors.
+* *_Home_*: The home page for HTML outputs, frontmatter for PDF outputs, and other content that does not belong in one of the more specific components.
+* *_Core_*: The main body of the project, principally the core rules of play.
+* *_Battles_*: Rules for setup and play, including scenarios and campaigns.
+* *_Armies_*: Guidance on how to choose and build your armies, along with army lists that detail detachments, unit data sheets and points costs for each faction in the game.
+* *_Contributor's Guide_*: Guidance for contributors, to help with governance and consistency, and to document our methods in a transparent way.
 
 This playbook contains additional project elements, such as:
 
 * The user interface (UI) template.
 * The overrides that we use to customise the UI template to suit the needs of the project (the supplemental UI).
+* Configuration for the extensions we need to provide features such as the text search tool and automated PDF outputs.
 
 == How to build a local preview of the project
 
@@ -46,22 +47,18 @@ Future updates to Antora may provide a direct way for us to generate other outpu
 
 === Understand the playbook
 
-This playbook contains the instructions that we want Antora to use to generate the {project-name} website.
+This playbook contains the instructions that we want Antora to use to generate the {project-name} outputs.
 
-* We use the main [.path]_github-playbook.yml_ file in the automated 'continuous integration' pipeline, to publish the actual website.
-* You can use the [.path]_local-playbook.yml_ file for your 'local' development, so that you can preview the site on your computer with the changes you make.
+* We use the main [.path]_github-playbook.yml_ file in the automated 'continuous deployment' pipeline, to publish the website and other outputs.
+* You can use the [.path]_local-playbook.yml_ file for your 'local' development, so that you can preview the outputs on your computer with the changes you make, and check the build process for errors.
 
 === Generate the local development preview site
 
 Once you've installed Antora and saved this playbook to a local directory, you're ready to {uri-docs-run}[run Antora].
 
-== Project team
-
-Development of {project-name} is led by {uri-project-team}[the project team^].
-
 == Copyright and licence
 
-Copyright 2020 Eric Weston and the Epic Remastered project contributors.
+Copyright 2020–{docyear} Eric Weston and the Epic Remastered project contributors.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
 You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
@@ -75,5 +72,5 @@ This publication is completely unofficial and in no way endorsed by Games Worksh
 
 .Trademark list
 ****
-Adeptus Astartes, Battlefleet Gothic, Blood Angels, Cadian, Catachan, the Chaos device, the Chaos logo, Citadel, the Citadel device, Codex, Daemonhunters, Dark Angels, Dark Eldar, the Double-Headed/Imperial Eagle device (Aquila), ’Eavy Metal, Eldar, Eldar symbol devices, Epic, Eye of Terror, Fanatic, the Fanatic logo, the Fanatic II logo, Fire Warrior, Forge World, Games Workshop, Games Workshop logo, Genestealer, Golden Demon, Great Unclean One, Keeper of Secrets, Khemri, Khorne, Kroot, Lord of Change, Necron, Nurgle, Ork, Ork skull devices, Sisters of Battle, Slaanesh, Space Marine, Space Marine chapters, Space Marine chapter logos, Tau, the Tau caste designations, Tyranid, Tzeentch, Ultramarines, Warhammer, Warhammer 40k device, Warhammer World logo, White Dwarf, the White Dwarf logo, and all associated marks, names, races, race insignia, characters, vehicles, locations, units, illustrations and images from the Warhammer 40,000 universe are either ®, ™ and/or © Copyright Games Workshop Ltd, variably registered in the UK and other countries around the world. Used without permission. No challenge to their status intended. All Rights Reserved to their respective owners.
+Adeptus Astartes, Battlefleet Gothic, Blood Angels, Cadian, Catachan, the Chaos device, the Chaos logo, Citadel, the Citadel device, Codex, Daemonhunters, Dark Angels, Dark Eldar, the Double-Headed/Imperial Eagle device (Aquila), 'Eavy Metal, Eldar, Eldar symbol devices, Epic, Eye of Terror, Fanatic, the Fanatic logo, the Fanatic II logo, Fire Warrior, Forge World, Games Workshop, Games Workshop logo, Genestealer, Golden Demon, Great Unclean One, Keeper of Secrets, Khemri, Khorne, Kroot, Lord of Change, Necron, Nurgle, Ork, Ork skull devices, Sisters of Battle, Slaanesh, Space Marine, Space Marine chapters, Space Marine chapter logos, Tau, the Tau caste designations, Tyranid, Tzeentch, Ultramarines, Warhammer, Warhammer 40k device, Warhammer World logo, White Dwarf, the White Dwarf logo, and all associated marks, names, races, race insignia, characters, vehicles, locations, units, illustrations and images from the Warhammer 40,000 universe are either ®, ™ and/or © Copyright Games Workshop Ltd, variably registered in the UK and other countries around the world. Used without permission. No challenge to their status intended. All Rights Reserved to their respective owners.
 ****
